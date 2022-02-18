@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  background-color: rgba(255, 247, 244, 1);
 }
 
 a {
@@ -13,4 +14,256 @@ a {
 
 * {
   box-sizing: border-box;
+}
+/* ======================HEADER SECTION ============================ */
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+.mainclass {
+  background-color: rgba(255, 247, 244, 1);
+}
+.header_section {
+  padding: 30px 0px;
+}
+
+img.digiency_img {
+  height: 48px;
+  width: 162px;
+  left: 0px;
+  top: 0px;
+  border-radius: nullpx;
+}
+.navbar a {
+  color: black !important;
+  text-decoration: none !important;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+}
+nav.navbar a:hover {
+  color: #ff5300 !important;
+}
+button.btn_talk {
+  background: aliceblue;
+  padding: 2px 10px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-top: -8px;
+  padding-top: 3px;
+  background-color: rgba(255, 247, 244, 1);
+}
+@media (min-width: 1200px) {
+  .hamburger {
+    display: none;
+  }
+  .close{
+    display: none;
+  }
+  .menuview{
+    display: none;
+  }
+}
+@media (min-width: 992px) and (max-width: 1200px) {
+  img.digiency_img {
+    height: 40px;
+    width: 145px;
+  }
+  .navbar a {
+    font-size: 18px;
+  }
+  .hamburger {
+    display: none;
+  }
+  .close{
+    display: none;
+  }
+  .menuview{
+    display: none;
+  }
+  button.btn_talk {
+    background: aliceblue;
+    padding: 2px 10px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding-top: 5px;
+    margin-top: -5px;
+    background-color: rgba(255, 247, 244, 1);
+  }
+  
+}
+@media (min-width: 767px) and (max-width: 992px) {
+  img.digiency_img {
+    height: 40px;
+    width: 145px;
+  }
+  .navbar a {
+    font-size: 14px;
+  }
+  button.btn_talk {
+    background: aliceblue;
+    padding: 2px 10px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-top: -3px;
+    background-color: rgba(255, 247, 244, 1);
+  }
+  .hamburger {
+    display: none;
+  }
+  .close{
+    display: none;
+  }
+  .menuview{
+    display: none;
+  }
+}
+@media (min-width: 576px) and (max-width: 767px) {
+  .Home,
+  .About_us,
+  .Services,
+  .Portfolio,
+  .Blog,
+  .Contact_Us,
+  .btn_talk {
+    display: none;
+  }
+
+  img.hamburger {
+    display: block;
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin-top: 0px;
+  }
+  img.close {
+    flex: 1;
+    height: 35px;
+    width: 35px;
+    display: block;
+    background: white;
+  }
+  .menuview {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 107, 107);
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    width: 300px !important;
+    height: 660px;
+  }
+  .menuview a {
+    display: inline-block;
+    font-size: 25px;
+    margin-top: 10px;
+    padding: 20px 0px 10px 0px;
+    color: white;
+    text-align: end;
+    text-decoration: none;
+  }
+}
+
+@media (min-width: 420px) and (max-width: 576px) {
+  .Home,
+  .About_us,
+  .Services,
+  .Portfolio,
+  .Blog,
+  .Contact_Us,
+  .btn_talk {
+    display: none;
+  }
+  img.digiency_img {
+    height: 40px;
+    width: 145px;
+  }
+  img.hamburger {
+    display: block;
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin-top: -45px;
+  }
+  img.close {
+    flex: 1 1;
+    height: 30px;
+    width: 30px;
+    display: block;
+    background: white;
+}
+  .menuview {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 107, 107);
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 220px !important;
+    height: 660px;
+  }
+  .menuview a {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px 0px 10px 0px;
+    color: white;
+    text-align: end;
+    text-decoration: none;
+  }
+}
+@media (min-width: 320px) and (max-width: 420px) {
+  .Home,
+  .About_us,
+  .Services,
+  .Portfolio,
+  .Blog,
+  .Contact_Us,
+  .btn_talk {
+    display: none;
+  }
+  img.digiency_img {
+    height: 40px;
+    width: 145px;
+  }
+  img.hamburger {
+    display: block;
+    height: 25px;
+    width: 25px;
+    float: right;
+    margin-top: -45px;
+  }
+  img.close {
+    flex: 1 1;
+    height: 25px;
+    width: 25px;
+    display: block;
+    background: white;
+}
+  .menuview {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(107, 107, 107);
+    padding: 10px 10px 10px 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 135px !important;
+    height: 660px;
+  }
+  .menuview a {
+    display: inline-block;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 20px 0px 10px 0px;
+    color: white;
+    text-align: end;
+    text-decoration: none;
+  }
 }
