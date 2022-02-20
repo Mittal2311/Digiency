@@ -1,5 +1,6 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import Footer from "./Footer";
 import Header from "./Header";
 
 export default function Home() {
@@ -13,6 +14,9 @@ export default function Home() {
 
       <div>
         <Header></Header>
+      </div>
+      <div>
+        <Footer></Footer> 
       </div>
     </div>
   );

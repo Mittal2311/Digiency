@@ -64,6 +64,64 @@ a {
   margin-top: -11px;
 }
 
+/* footer css */
+.footer_bg {
+  background-color: #373737;
+}
+
+.footer_container {
+  /* display: flex; */
+  /* flex-direction: row; */
+}
+
+.footer_firstdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 34%;
+}
+.logo{
+  width: 162px;
+  margin-left: -2px;
+}
+.img1{
+  margin-left: -14px;
+}
+.footer_firstdiv p,
+.footer_fourthdiv p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #ffffff;
+}
+.bg1 {
+  font-size: 20px;
+  margin: 0px 15px;
+  background-color: #ff5300;
+  padding: 8px;
+}
+.bg2 {
+  font-size: 20px;
+  margin: 0px 15px;
+  background-color: #fff;
+  padding: 8px;
+}
+.footer_secounddiv ul li,
+.footer_thirddiv ul li {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  color: #ffffff;
+  list-style-type: none;
+}
+.last_bg {
+  background-color: #ff5300;
+}
+
 @media (max-width: 1992px) and (min-width: 922px) {
 }
 @media (max-width: 1200px) and (min-width: 922px) {
