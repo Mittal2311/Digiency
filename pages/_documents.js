@@ -8,12 +8,14 @@ class MyDocument extends Document {
   render() {
     return (
       <Html>
-
-
         <meta
           name="viewport"
           content="width=device-width, initial-scale=1"
         ></meta>
+        <link
+          href="https://fonts.googleapis.com/css?family=Work Sans"
+          rel="stylesheet"
+        />
         <Head />
         <body>
           <Main />

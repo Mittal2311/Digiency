@@ -1,18 +1,35 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
-
+import react from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Header from "./component/header";
-
+import React from "react";
+import Header from "./component/Header/Header";
+import Footer from "./Component/Footer/Footer";
+import Banner from "./Component/Banner/Banner";
+import { Container } from "react-bootstrap";
 
 const Home = () => {
   return (
-    <div>
-      <div className="mainclass">
+    <>
+      <div className="header_bg">
+        {/* header start */}
         <Header />
+        {/* header end */}
+
+        {/* Banner start */}
+        <div className="Banner">
+          <Banner />
+        </div>
+        {/* Banner end */}
+     
       </div>
-    </div>
+
+        {/* footer start */}
+      <div className="footer_color">
+        <Footer />
+      </div>
+        {/* footer end */}
+
+    </>
   );
 };
+
 export default Home;
