@@ -2,6 +2,7 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "./Footer";
 import Header from "./Header";
+import Final from "./Final"
 
 export default function Home() {
   return (
@@ -15,6 +16,9 @@ export default function Home() {
       <div>
         <Header></Header>
       </div>
+      {/* <div>
+        <Final></Final>
+      </div> */}
       <div>
         <Footer></Footer> 
       </div>
