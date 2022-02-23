@@ -1,69 +1,57 @@
+import React from "react";
+import { Col, Container, Row, Image, NavLink } from "react-bootstrap";
 
 const Header = () => {
   return (
     <>
-      <div className="container-fluid navbar-container">
-        <div className="container">
-          <nav className="navbar navbar-expand-lg navbar-light">
-            <a className="navbar-brand" href="#">
-              <img src="/LOGO.png" />
-            </a>
-            <button
-              className="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
+      <div className="head_maindiv">
+        <Container>
+          <Row>
+            <Col
+              xl={{ span: 6, order: 1 }}
+              lg={{ span: 6, order: 1 }}
+              md={{ span: 6, order: 1 }}
+              sm={{ span: 12, order: 2 }}
+              xs={{ span: 12, order: 2 }}
+              className="head_firstdiv"
             >
-              <span className="navbar-toggler-icon"></span>
-            </button>
-            <div className="container">
-              <div
-                className="collapse navbar-collapse"
-                id="navbarSupportedContent"
-              >
-                <ul className="navbar-nav  mb-lg-0">
-                  <li className="nav-item">
-                    <a className="nav-link active" aria-current="page" href="#">
-                      Home
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      About Us
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Our Work
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Clients
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Our Blog
-                    </a>
-                  </li>
-                  <li className="nav-item">
-                    <a className="nav-link" href="#">
-                      Contact Us
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-            <div className="nav_last_logo">
-            <img src="/Mask.png" />
-            </div>
-          </nav>
+              <h2 className="head_h2">
+                We Are The Best
+                 <span className="head_span"> Digital Agency</span> For Business
+              </h2>
+              <p className="head_p">
+                Amet minim molits deserunt ullamco etc sit aliqua dolor do amet
+                sint. Velit office consequat duis enim velit mollit.
+                Exercitation veniam conseqat sunt nastrud amet
+              </p>
+              <button className="header_btn">Contact Us</button>
+            </Col>
+            <Col
+              xl={{ span: 6, order: 1 }}
+              lg={{ span: 6, order: 1 }}
+              md={{ span: 6, order: 1 }}
+              sm={{ span: 12, order: 1 }}
+              xs={{ span: 12, order: 1 }}
+              className="head_imgdiv"
+            >
+              <Image src="/hedimg.png"  className="head_img"/>
+            </Col>
+          </Row>
+        </Container>
+        <div className="head_social-icons">
+          <NavLink xl={3} lg={3} md={3} sm={3} xs={3} className="head_navlink">
+            <img src="./facebook.png" className="head_fb" />
+          </NavLink>
+          <NavLink xl={3} lg={3} md={3} sm={3} xs={3} className="head_navlink">
+            <img src="./instagram.png" className="head_insta" />
+          </NavLink>
+          <NavLink xl={3} lg={3} md={3} sm={3} xs={3} className="head_navlink">
+            <img src="./skype.png" className="head_sky" />
+          </NavLink>
+          <NavLink xl={3} lg={3} md={3} sm={3} xs={3} className="head_navlink">
+            <img src="./twitter.png" className="head_twit" />
+          </NavLink>
         </div>
-       
       </div>
     </>
   );
