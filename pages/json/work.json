@@ -1,0 +1,36 @@
+[
+    {
+      "id": 1,
+      "workimg": "workimg1.png",
+      "workType": "Graphic Design"
+    
+    },
+    {
+        "id": 2,
+      "workimg": "workimg2.png",
+      "workType": "Web Development"
+      },
+      {
+        "id": 3,
+        "workimg": "workimg3.png",
+        "workType": "Graphic Design"
+        
+      },
+      {
+        "id": 4,
+        "workimg": "workimg4.png",
+        "workType": "Web Development"
+      },
+      {
+        "id": 5,
+        "workimg": "workimg5.png",
+        "workType": "Graphic Design"
+      },
+      {
+        "id": 6,
+        "workimg": "workimg6.png",
+        "workType": "UI/UX Design"
+      }                 
+  ]
+
+  

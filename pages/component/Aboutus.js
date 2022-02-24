@@ -7,12 +7,14 @@ const Aboutus = () => {
       <div className="about_section">
         <Container>
           <Row>
-            <Col xl={6} lg={6}>
+            <Col xl={{span:6 , order:1}} lg={{span:6 , order:1}} md={{span:6 , order:1}} className="about_img">
               <Image src="/about.png" />
             </Col>
-            <Col xl={6} lg={6} className="about_cont">
+            <Col xl={{span:6 , order:1}} lg={{span:6 , order:1}} md={{span:6 , order:1}} className="about_cont">
               <h5>About Us</h5>
-              <h4>We Are <span> Making Ideas Better</span> For Everyone</h4>
+              <h4>
+                We Are <span>Making Ideas Better</span> For Everyone
+              </h4>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Nascetur imperdiet at a augue ullamcorper. Leo faucibus feugiat
@@ -24,8 +26,37 @@ const Aboutus = () => {
                 faucibus est, dui interdum ut amet. Adipiscing feugiat vel at
                 posuere in. Pellentesque volutpat vestibulum.
               </p>
+              <button className="about_btn">Contact Us</button>
             </Col>
           </Row>
+          <div className="about_Second">
+          <Row>
+            <Col xl={3} lg={3} md={3}>
+              <div className="about_img_text">
+                <Image src="abouticon1.png" />
+                <p>World leader in consulting and finance</p>
+              </div>
+            </Col>
+            <Col xl={3} lg={3} md={3}>
+              <div className="about_img_text">
+                <Image src="abouticon2.png" />
+                <p>A focused team with a specialized skill</p>
+              </div>
+            </Col>
+            <Col xl={3} lg={3} md={3}>
+              <div className="about_img_text">
+                <Image src="abouticon3.png" />
+                <p>Trusted and professional advisors for you</p>
+              </div>
+            </Col>
+            <Col xl={3} lg={3} md={3}>
+              <div className="about_img_text">
+                <Image src="abouticon4.png" />
+                <p>Experience to give you a better results</p>
+              </div>
+            </Col>
+          </Row>
+          </div>
         </Container>
       </div>
     </>
