@@ -42,7 +42,7 @@ const ThirdComp = () => {
             >
               <Row>
                 <Col xl={6} lg={6} md={12} sm={12} xs={12}>
-                  <Card className="thirdcopm_card">
+                  <Card className="thirdcopm_card firstcard_div">
                     <Card.Body className="thirdcomp_cardbody">
                       <h3>250+</h3>
                       <Card.Text className="thirdcomp_cardtext">Global Customer</Card.Text>
@@ -58,7 +58,7 @@ const ThirdComp = () => {
                   </Card>
                 </Col>
                 <Col xl={6} lg={6} md={12} sm={12} xs={12}>
-                  <Card className="thirdcopm_card">
+                  <Card className="thirdcopm_card thirdcard_div">
                     <Card.Body className="thirdcomp_cardbody">
                       <h3>50+</h3>
                       <Card.Text className="thirdcomp_cardtext">Team Member</Card.Text>
