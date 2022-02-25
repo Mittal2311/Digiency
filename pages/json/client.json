@@ -12,5 +12,12 @@
     "clientheading": "Ashlynn Gouse",
     "clienttitle": "Managing Director",
     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia eu, etiam volutpat morbi et amet, sagittis adipiscing. "
+  },
+  {
+    "id": 3,
+    "clientimg": "profile1.png",
+    "clientheading": "Ashlynn Gouse",
+    "clienttitle": "Managing Director",
+    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sit a laoreet libero dis eget maecenas bibendum. Morbi lacinia eu, etiam volutpat morbi et amet, sagittis adipiscing. "
   }
 ]

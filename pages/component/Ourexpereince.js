@@ -15,7 +15,7 @@ const Ourexpereince = () => {
               <div className="our_cont">
                 <h5>Our Expereince</h5>
                 <h4>
-                  We Have Completed <span>150+ Projects</span> Succesfully
+                  We Have Completed<span>150+ Projects</span> Succesfully
                 </h4>
                 <p>
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

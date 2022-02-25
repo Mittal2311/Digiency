@@ -14,7 +14,6 @@ const Ourwork = () => {
     });
     setWorkData(updatedItems);
   };
-
   const breakpoints = {
     default: 3,
     1199: 3,
@@ -28,7 +27,7 @@ const Ourwork = () => {
           <div className="ourwork_title text-center">
             <h5>Our Work</h5>
             <h4 className="text-center">
-              We Have Some <span>Designed & Development</span> Projects
+              We Have Some<br/> <span>Designed & Development</span> Projects
             </h4>
           </div>
           <Nav className='casestudy_header mb-5' Nav variant="pills" defaultActiveKey="#home">

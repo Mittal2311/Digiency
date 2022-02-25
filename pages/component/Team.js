@@ -11,8 +11,8 @@ const Team = (props) => {
   const settings = {
     dots: false,
     infinite: true,
-    autoplay: true,
-    arrows: true,
+    autoplay: 100,
+    arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
@@ -61,8 +61,8 @@ const Team = (props) => {
         ))}
       </Col> */}
 
-      <div class="overlay">
-                <div className="team_social_icons">
+     
+      <div className="team_social_icons">
         <NavLink xl={3} lg={3} md={3} sm={3}>
           <Image src="/fb.png" className="fb" />
         </NavLink>
@@ -76,19 +76,20 @@ const Team = (props) => {
           <Image src="/skype.png" />
         </NavLink>
       </div>
-      </div>
+      
 
       <Row>
         <Slider {...settings}>
           {teamData.map((item) => (
             <div className="slider_cont">
               <>
+              <Col xl={12} lg={12}>
                 <Image src={item.teamimg} />
-               
                 <div className="team_cont">
                   <h2>{item.teamheading}</h2>
                   <span>{item.teamtitle}</span>
                 </div>
+                </Col>
               </>
             </div>
           ))}

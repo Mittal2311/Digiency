@@ -10,8 +10,8 @@ import Team from "./component/Team";
 import Teamjson from "./json/team.json";
 import { Container } from "react-bootstrap";
 import Ourwork from "./component/Ourwork";
-import Ex from ".//component/Ex";
 import Client from "./component/Client";
+import Blog from "./component/Blog";
 
 
 export default function Home() {
@@ -40,13 +40,9 @@ export default function Home() {
       <div className="team_title text-center mb-5">
             <h5>Team Member</h5>
             <h4>
-              We Have <span>Some Awesome</span> People
+              We Have<br/> <span>Some Awesome</span> People
             </h4>
           </div>
-          {/* {teamData.map((item) => (
-              <Team data={item} />
-            ))} */}
-
             <Team/>
       </Container>
       </div>
@@ -58,10 +54,12 @@ export default function Home() {
       {/* Our Work section end  */}
 
       {/* Client feedback section satrt  */}
-
       <Client/>
       {/* Client feedback section end  */}
 
+      {/* Blog section css start  */}
+      <Blog/>
+      {/* Blog section css end  */}
       {/* footer section satrt  */}
         <Footer />
       {/* footer section end  */}
