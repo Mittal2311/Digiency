@@ -49,9 +49,9 @@ const FourthComp = () => {
               </Card>
             </Col>
             <Col xl={3} lg={3} md={6} sm={6} xs={12}>
-              <Card className="fourthcomp_card">
+              <Card className="fourthcomp_card fourthcom_fourImg">
                 <Card.Body className="fourthcomp_body">
-                  <Image src="./Image (1).png" className="fourthcom_img" />
+                  <Image src="./Image (1).png" className="fourthcom_img " />
                   <h3>Abram Vaccaro</h3>
                   <Card.Text className="fourthcomp_text">
                     App Developer

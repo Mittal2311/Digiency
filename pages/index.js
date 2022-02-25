@@ -7,6 +7,8 @@ import { Navbar } from "react-bootstrap";
 import Header from "./Header";
 import Secoundcomp from "./Secoundcomp";
 import ThirdComp from "./ThirdComp";
+import FourthComp from "./FourthComp";
+import FifthComp from "./FifthComp";
 
 export default function Home() {
   return (
@@ -28,6 +30,12 @@ export default function Home() {
       </div>
       <div>
         <ThirdComp />
+      </div>
+      <div>
+        <FourthComp></FourthComp>
+      </div>
+      <div>
+        <FifthComp></FifthComp>
       </div>
       {/* <div>
         <Final></Final>
