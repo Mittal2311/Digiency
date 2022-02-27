@@ -1621,10 +1621,6 @@ input[type="text"] {
   .fourthcomp h2 {
     font-size: 35.06px;
   }
-  /* Ourblog section */
-  .ourblogcomp_firstcomp {
-    /* margin: 0px 50px !important; */
-  }
 }
 @media (max-width: 445px) and (min-width: 350px) {
   .col-12 {
