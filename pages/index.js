@@ -9,6 +9,8 @@ import Secoundcomp from "./Secoundcomp";
 import ThirdComp from "./ThirdComp";
 import FourthComp from "./FourthComp";
 import FifthComp from "./FifthComp";
+import ClientsFeedback from "./ClientsFeedback";
+import OurBlogcomp from "./OurBlogcomp";
 
 export default function Home() {
   return (
@@ -36,6 +38,12 @@ export default function Home() {
       </div>
       <div>
         <FifthComp></FifthComp>
+      </div>
+      <div>
+        <ClientsFeedback></ClientsFeedback>
+      </div>
+      <div>
+        <OurBlogcomp></OurBlogcomp>
       </div>
       {/* <div>
         <Final></Final>

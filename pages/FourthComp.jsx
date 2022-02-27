@@ -30,6 +30,10 @@ const FourthComp = () => {
               <Card className="fourthcomp_card fourthcom_firstDiv">
                 <Card.Body className="fourthcomp_body">
                   <Image src="./Image (3).png" className="fourthcom_img" />
+                  <Image src="./facebook.png" className="fourthcomp_social-icon"/>
+                  <Image src="./instagram.png" className="fourthcomp_social-icon1"/>
+                  <Image src="./twitter.png" className="fourthcomp_social-icon2"/>
+                  <Image src="./skype.png" className="fourthcomp_social-icon3"/>
                   <h3>Phillip Curtis</h3>
                   <Card.Text className="fourthcomp_text">
                     Graphic Designer
@@ -41,6 +45,10 @@ const FourthComp = () => {
               <Card className="fourthcomp_card">
                 <Card.Body className="fourthcomp_body">
                   <Image src="./Image (2).png" className="fourthcom_img" />
+                  <Image src="./facebook.png" className="fourthcomp_social-icon"/>
+                  <Image src="./instagram.png" className="fourthcomp_social-icon1"/>
+                  <Image src="./twitter.png" className="fourthcomp_social-icon2"/>
+                  <Image src="./skype.png" className="fourthcomp_social-icon3"/>
                   <h3>Talan Torff</h3>
                   <Card.Text className="fourthcomp_text">
                     Web Designer
@@ -52,6 +60,10 @@ const FourthComp = () => {
               <Card className="fourthcomp_card fourthcom_fourImg">
                 <Card.Body className="fourthcomp_body">
                   <Image src="./Image (1).png" className="fourthcom_img " />
+                  <Image src="./facebook.png" className="fourthcomp_social-icon"/>
+                  <Image src="./instagram.png" className="fourthcomp_social-icon1"/>
+                  <Image src="./twitter.png" className="fourthcomp_social-icon2"/>
+                  <Image src="./skype.png" className="fourthcomp_social-icon3"/>
                   <h3>Abram Vaccaro</h3>
                   <Card.Text className="fourthcomp_text">
                     App Developer

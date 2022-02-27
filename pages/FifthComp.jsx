@@ -1,9 +1,9 @@
 import Link from "next/link";
 import React, { useState } from "react";
-import { Nav, Container, NavLink, Row, Image } from "react-bootstrap";
+import { Nav, Container, NavLink, Row, Image, Col } from "react-bootstrap";
 import Masonry from "react-masonry-css";
 import fifthjson from "./Fifth.json";
-import CardComp from "./FifthCardComp";
+
 
 const FifthComp = () => {
   const [workdata, setWorkData] = useState(fifthjson);
@@ -69,7 +69,12 @@ const FifthComp = () => {
               columnClassName="my-masonry-grid_column"
             >
               {workdata.map((i) => (
-                <CardComp data={i} />
+                <Col xl={4} lg={4} md={12} className="workcard_img">
+                  <Image src={i.workimg} className="wimg" />
+                  <Image src={i.serchimg} className="imgWidth" />
+                  <h3 className="fifhtcomp_h2div-1">{i.wroktitle}</h3>
+                  <p className="fifthcomp_pdiv-1">{i.desiner}</p>
+                </Col>
               ))}
             </Masonry>
           </Row>
