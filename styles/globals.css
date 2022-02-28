@@ -250,6 +250,7 @@ input[type="text"] {
 }
 /* secoundcomp */
 .secoundcomp_div {
+  /* height: 100vh; */
   background-color: #18191a;
 }
 .secoundcomp_firstdiv {
@@ -653,11 +654,19 @@ input[type="text"] {
   text-align: center;
   color: #ffffff;
 }
+.compsix_img-1 {
+  margin-top: 20px;
+  margin-left: -30px;
+}
 .compsix span {
   color: #ff5300;
 }
 .compsix {
   position: relative;
+}
+.compsix_headdiv {
+  margin-top: -30% ;
+  padding: 15% !important;
 }
 .compsix_firstdiv,
 .compsix_secounddiv {
@@ -674,7 +683,7 @@ input[type="text"] {
   font-weight: 500;
   font-size: 25px;
   line-height: 123.6%;
-  text-align: center;
+  /* text-align: center; */
   color: #ffffff;
 }
 .compsix_firstdiv h6,
@@ -684,7 +693,7 @@ input[type="text"] {
   font-weight: normal;
   font-size: 16px;
   line-height: 150.6%;
-  text-align: center;
+  /* text-align: center; */
   color: #ffffff;
 }
 .compsix_firstdiv p,
@@ -698,18 +707,22 @@ input[type="text"] {
 }
 .carousel_clients.active {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: space-evenly !important;
 }
 .carousel-item-next {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: space-evenly !important;
 }
 .carousel-item-prev {
   display: flex !important;
-  justify-content: center !important;
+  justify-content: space-evenly !important;
 }
 .carousel-indicators {
   margin-bottom: -1.5rem !important;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  display: none !important;
 }
 
 /* Our Blog section */
@@ -724,7 +737,7 @@ input[type="text"] {
   padding-bottom: 50px;
 }
 .ourblogcomp_firstcomp {
-  padding: 20px;
+  padding: 30px;
   margin: 0 15px !important;
   position: relative;
   max-width: 550px !important;
@@ -790,7 +803,7 @@ input[type="text"] {
   position: absolute;
   width: auto;
   height: auto;
-  left: 10px;
+  left: 20px;
   bottom: 27px !important ;
 }
 .secound_h6 {
@@ -817,6 +830,151 @@ input[type="text"] {
   width: auto;
   flex-direction: column;
 }
+/* Contact US section */
+.contactus_div {
+  background-color: #18191a;
+  margin-top: -1px;
+}
+
+.contactus_div h5 {
+  padding-top: 50px;
+  color: #ffffff;
+  text-align: center;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+}
+.contactus_div h2 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.06px;
+  line-height: 123.6%;
+  text-align: center;
+  color: #ffffff;
+}
+.contactus_div span {
+  color: #ff5300;
+}
+.contactus_div2 {
+  position: relative;
+}
+
+.contactus_div2-card {
+  margin: auto !important;
+  /* width: 370px; */
+  height: 230px;
+  background-color: #242526 !important;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+}
+.contactus_div2-img {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  left: 10px;
+  top: 15px;
+}
+.contactus_div2-title-div {
+  margin-left: 25%;
+}
+.contactus_div2-title {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #ff5300;
+}
+.contactus_div2-subtitle {
+  font-family: Work Sans !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 31.25px !important;
+  line-height: 123.6% !important;
+  color: #ffffff !important;
+}
+.contactus_div2-text-div {
+  margin-top: 20%;
+}
+
+.contactus_div2-text1 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #ffffff;
+}
+.contactus_div2-text2 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #ffffff;
+}
+.contactus_div-from {
+  margin-bottom: 30px;
+}
+.contactus_div-from-width {
+  width: 107% !important;
+  color: #e9ecef !important;
+}
+.contactus_div-from-width-mobile {
+  margin-left: 23px !important;
+  /* width: 115% !important; */
+  color: #f8f9fa !important;
+}
+.contactus_div-from-width-mobile1 {
+  width: 109% !important;
+}
+
+input[type="text"] {
+  border: none !important;
+  height: 60px;
+}
+
+::placeholder {
+  color: #e9ecef !important;
+}
+
+textarea.form-control {
+  height: 163px;
+  background-color: #373737 !important;
+}
+
+input[type="number"] {
+  height: 60px;
+  border: none !important;
+}
+input[type="email"] {
+  height: 60px;
+  border: none !important;
+}
+.fromdiv-2 {
+  margin: 50px 0px;
+}
+.fromdiv-1 {
+  width: 100%;
+}
+.btn-primary {
+  color: #fff;
+  background-color: #ff5300 !important;
+  border-color: #0d6efd;
+}
+/* contactus container-3 */
+.container_3-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.contactus_last-img {
+  /* width: 20%; */
+  margin-bottom: 50px;
+}
 @media (max-width: 1400px) and (min-width: 1200px) {
   /* fifthcomp section */
   .my-masonry-grid {
@@ -826,7 +984,10 @@ input[type="text"] {
     margin-left: 0px;
     width: auto;
   }
-
+  /* contact us froms */
+  .fromdiv-1 {
+    margin-top: 30px !important;
+  }
   /* .my-masonry-grid_column > div {
    
     margin-bottom: 0px;
@@ -893,6 +1054,14 @@ input[type="text"] {
     top: 160px;
   }
   /* fifthcomp section */
+  /* contact us froms */
+  .fromdiv-1 {
+    margin-top: 70px !important;
+  }
+  /* our Blog Component */
+  .firstdiv_h4{
+    font-size: 20px;
+  }
 }
 @media (max-width: 992px) and (min-width: 767px) {
   .navbar-light .navbar-toggler {
@@ -1031,7 +1200,8 @@ input[type="text"] {
     max-height: 294px;
     background: #242526;
     box-shadow: 0px 1px 10px rgb(0 0 0 / 10%);
-  }.firstdiv_secoundcomp {
+  }
+  .firstdiv_secoundcomp {
     /* margin-top: 25px; */
     margin-bottom: 10px;
   }
@@ -1045,6 +1215,38 @@ input[type="text"] {
   .wahh {
     margin-left: 100px;
     /* padding-top: -20px !important; */
+  }
+
+  /* contactus Section */
+  /* contactus Section */
+  .contactus_div2-title-div {
+    margin-left: 15%;
+  }
+  .contactus_div2-text-div {
+    margin-top: 10%;
+  }
+  .contactus_div2-card {
+    width: 465px !important;
+  }
+  .contactus_div2-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactus_div2-img {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 135px;
+    top: 25px;
+  }
+  .contactus_div2-card {
+    margin-bottom: 10px !important;
+  }
+  .contactus_last-img {
+    width: 20%;
+    /* margin-bottom: 50px; */
   }
 }
 
@@ -1270,19 +1472,23 @@ input[type="text"] {
   /* carousel */
   .carousel_clients.active {
     display: block !important;
+    justify-content: start !important;
   }
   .carousel-item-next {
     display: block !important;
+    justify-content: start !important;
   }
   .carousel-item-prev {
     display: block !important;
+    justify-content: start !important;
   }
   .carousel-inner {
     display: flex;
+    justify-content: start !important;
     /* justify-content: space-around; */
   }
   .carousel-item {
-    margin-right: 0px !important;
+    /* margin-right: 0px !important; */
   }
   /* clients Feedback Section */
   .compsix_firstdiv {
@@ -1320,6 +1526,33 @@ input[type="text"] {
   .wahh {
     margin-left: 100px;
     /* padding-top: -20px !important; */
+  }
+  /* contactus Section */
+  .contactus_div2-title-div {
+    margin-left: 15%;
+  }
+  .contactus_div2-text-div {
+    margin-top: 10%;
+  }
+  .contactus_div2-card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contactus_div2-img {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 155px;
+    top: 24px;
+  }
+  .contactus_div2-card {
+    margin-bottom: 10px !important;
+  }
+  .contactus_last-img {
+    width: 20%;
+    /* margin-bottom: 50px; */
   }
 }
 @media (max-width: 575px) and (min-width: 350px) {
@@ -1362,7 +1595,7 @@ input[type="text"] {
   }
   .carousel_clients.active {
     display: block !important;
-    margin-right: 0px !important;
+    /* margin-right: 0px !important; */
   }
   .carousel-item-next {
     display: block !important;
@@ -1372,7 +1605,7 @@ input[type="text"] {
   }
   .carousel-inner {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
   }
   /* clients Feedback Section */
   .compsix_firstdiv {
@@ -1419,6 +1652,28 @@ input[type="text"] {
   .firstdiv_h4 {
     font-size: 17px;
   }
+  /* contactus Section */
+  .contactus_div2-title-div {
+    margin-left: 25%;
+  }
+  .contactus_div2-text-div {
+    margin-top: 10%;
+  }
+  .contactus_div2-card {
+    margin-bottom: 10px !important;
+  }
+  .contactus_last-img {
+    width: 20%;
+    /* margin-bottom: 50px; */
+  }
+
+  /* .contactus_div2-img {
+    position: absolute;
+    width: 75px;
+    height: 75px;
+    left: 155px;
+    top: 24px;
+  } */
 }
 
 @media (max-width: 566px) and (min-width: 350px) {
@@ -1581,20 +1836,25 @@ input[type="text"] {
   }
   /* Clients section */
   .compsix_firstdiv {
-    margin: auto !important;
+    margin: auto;
     width: auto !important;
+  }
+  .compsix_img-1 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
   }
   /* our blogcomp section */
   .ourblogcomp_firstcomp {
     padding: 0px;
     margin: auto !important;
     position: relative;
-    width: 350px !important;
-    max-height: 294px;
+    width: auto !important;
+    height: auto !important;
     background: #242526;
     box-shadow: 0px 1px 10px rgb(0 0 0 / 10%);
   }
-  .ourblogcomp h2{
+  .ourblogcomp h2 {
     font-size: 25px;
   }
   .firstdiv_secoundcomp {
@@ -1686,9 +1946,8 @@ input[type="text"] {
     font-size: 29.06px;
   }
   /* ourblog section */
-  .ourblogcomp h2{
-    font-size: auto
-    ;
+  .ourblogcomp h2 {
+    font-size: auto;
   }
 }
 @media (max-width: 356px) and (min-width: 350px) {
@@ -1825,6 +2084,11 @@ input[type="text"] {
     margin: auto !important;
     width: auto !important;
   }
+  .compsix_img-1 {
+    margin-top: 0;
+    margin-left: 0;
+    margin-bottom: 0;
+  }
 
   .compsix_firstdiv p {
     font-size: 12px;
@@ -1866,5 +2130,12 @@ input[type="text"] {
   }
   .firstdiv_h4 {
     font-size: 17px;
+  }
+  .contactus_div2-card {
+    margin-bottom: 10px !important;
+  }
+  .contactus_last-img {
+    width: 20%;
+    /* margin-bottom: 50px; */
   }
 }

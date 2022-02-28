@@ -11,6 +11,7 @@ import FourthComp from "./FourthComp";
 import FifthComp from "./FifthComp";
 import ClientsFeedback from "./ClientsFeedback";
 import OurBlogcomp from "./OurBlogcomp";
+import ContactUs from "./ContactUS";
 
 export default function Home() {
   return (
@@ -45,9 +46,9 @@ export default function Home() {
       <div>
         <OurBlogcomp></OurBlogcomp>
       </div>
-      {/* <div>
-        <Final></Final>
-      </div> */}
+      <div>
+        <ContactUs></ContactUs>
+      </div>
       <div>
         <Footer></Footer>
       </div>

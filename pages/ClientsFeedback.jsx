@@ -27,9 +27,11 @@ const ClientsFeedback = () => {
                 {clientdata.map((i) => (
                   <Col xl={6} lg={6} md={6} className="compsix_firstdiv">
                     <Image src={i.clientimg} className="compsix_img-1" />
-                    <h3>{i.clientname}</h3>
-                    <h6>{i.clientceo}</h6>
-                    <p>{i.clientinfo}</p>
+                    <div className="compsix_headdiv">
+                      <h3>{i.clientname}</h3>
+                      <h6>{i.clientceo}</h6>
+                      <p>{i.clientinfo}</p>
+                    </div>
                   </Col>
                 ))}
               </Carousel.Item>
@@ -37,9 +39,11 @@ const ClientsFeedback = () => {
                 {clientdata.map((i) => (
                   <Col xl={6} lg={6} md={6} className="compsix_firstdiv">
                     <Image src={i.clientimg} className="compsix_img-1" />
+                    <div className="compsix_headdiv">
                     <h3>{i.clientname}</h3>
                     <h6>{i.clientceo}</h6>
                     <p>{i.clientinfo}</p>
+                    </div>
                   </Col>
                 ))}
               </Carousel.Item>
