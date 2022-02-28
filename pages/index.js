@@ -2,12 +2,10 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Footer from "./Footer";
 import NavComp from "./NavComp";
-import Final from "./Final";
-import { Navbar } from "react-bootstrap";
 import Header from "./Header";
 import Secoundcomp from "./Secoundcomp";
 import ThirdComp from "./ThirdComp";
-import FourthComp from "./FourthComp";
+import Teammember from "./Teammember";
 import FifthComp from "./FifthComp";
 import ClientsFeedback from "./ClientsFeedback";
 import OurBlogcomp from "./OurBlogcomp";
@@ -35,7 +33,7 @@ export default function Home() {
         <ThirdComp />
       </div>
       <div>
-        <FourthComp></FourthComp>
+        <Teammember></Teammember>
       </div>
       <div>
         <FifthComp></FifthComp>
