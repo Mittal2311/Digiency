@@ -16,11 +16,17 @@ const Footer = () => {
                 laoreet libero dis eget maecenas bibendum.
               </p>
               <div className="social_icons d-flex">
+                <NavLink  xl={3} lg={3} md={3} sm={3} ><img src="/fb.png" className="fb" /></NavLink>
+                <NavLink  xl={3} lg={3} md={3} sm={3}><img src="/insta.png"/></NavLink>
+                <NavLink  xl={3} lg={3} md={3} sm={3}><img src="/twitter.png"/></NavLink>
+                <NavLink  xl={3} lg={3} md={3} sm={3}><img src="/skype.png"/></NavLink>
+       </div>
+              {/* <div className="social_icons d-flex">
                 <NavLink  xl={3} lg={3} md={3} sm={3} className="fb"> <img src="/facebookfill.png"/></NavLink>
                 <NavLink  xl={3} lg={3} md={3} sm={3}> <img src="/instagramfill.png"/></NavLink>
                 <NavLink  xl={3} lg={3} md={3} sm={3}> <img src="/twitterfill.png"/></NavLink>
                 <NavLink  xl={3} lg={3} md={3} sm={3}> <img src="/skypefill.png"/></NavLink>
-              </div>
+              </div> */}
             </Col>
             <Col className="footer_top" xl={3} lg={3} md={3}  sm={6}>
               <h5>Company</h5>

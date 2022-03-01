@@ -52,9 +52,9 @@ const Client = () => {
               Some <span>Great Words</span> From Our Clients
             </h4>
           </div>
-          <Row>
+          <Row className="myh3">
             <Slider {...settings}>
-              {clientData.map((item) => (
+              {/* {clientData.map((item) => (
                 <>
                 <Col xl={12} lg={12} md={12}>
                 <div className="client_cont">
@@ -67,10 +67,9 @@ const Client = () => {
                 </div>
                 </Col>
                 </>
-              ))}
-            
-
-              {/* <Col xl={6} lg={6} md={6}>
+              ))} */}
+  
+              <Col xl={6} lg={6} md={6}>
               <div className="client_cont">
                 <Image src="/profile1.png" />
                 <div className="client_info">
@@ -111,7 +110,7 @@ const Client = () => {
                   etiam volutpat morbi et amet, sagittis adipiscing.{" "}
                 </p>
               </div>
-            </Col> */}
+            </Col>
             </Slider>
           </Row>
         </Container>
