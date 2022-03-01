@@ -1,0 +1,58 @@
+[
+    {
+           
+    "id": 1,
+    "img": "star.png",
+    "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+    "bottomimg" : "sliderbottom1.png",
+    "title": "Phillip Levin",
+    "header": "CEO / Creative IT",
+    "coma":"coma.png"
+    },
+    {
+        "id": 2,
+        "img": "star.png",
+        "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "bottomimg" : "sliderbottom2.png",
+        "title": "Lincoln Lipshutz",
+        "header": "CEO / Creative IT",
+        "coma":"coma.png"
+    },
+    {
+        "id": 3,
+        "img": "star.png",
+        "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "bottomimg" : "sliderbottom3.png",
+        "title": "Craig Siphron",
+        "header": "CEO / Creative IT",
+        "coma":"coma.png"
+    },
+    {
+           
+        "id": 4,
+        "img": "star.png",
+        "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+        "bottomimg" : "sliderbottom1.png",
+        "title": "Phillip Levin",
+        "header": "CEO / Creative IT",
+        "coma":"coma.png"
+        },
+        {
+            "id": 5,
+            "img": "star.png",
+            "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+            "bottomimg" : "sliderbottom2.png",
+            "title": "Lincoln Lipshutz",
+            "header": "CEO / Creative IT",
+            "coma":"coma.png"
+        },
+        {
+            "id": 6,
+            "img": "star.png",
+            "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut.",
+            "bottomimg" : "sliderbottom3.png",
+            "title": "Craig Siphron",
+            "header": "CEO / Creative IT",
+            "coma":"coma.png"
+        }
+]

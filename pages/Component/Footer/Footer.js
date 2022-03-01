@@ -1,10 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import {
-  Col,
-  Container,
-  Row
-} from "react-bootstrap";
+import {Col,Container,Row} from "react-bootstrap";
 
 const Footer = () => {
   return (
@@ -44,7 +40,7 @@ const Footer = () => {
             <h6 className="footer_header">Follow Us</h6>
             <div className="Footer_logo">
               <Row>
-               <Col xl={3} lg={6} md={3} sm={3} xs={3}>  <img src="/Facebook.png" className="logo_follow"></img></Col>
+               <Col xl={3} lg={6} md={3} sm={3} xs={3}>  <img src="/Facebook.png"  className="logo_follow"></img></Col>
                <Col xl={3} lg={6} md={3} sm={3} xs={3}> <img src="/Instagram.png" className="logo_follow"></img></Col>
                <Col xl={3} lg={6} md={3} sm={3} xs={3}>  <img src="/Skype.png" className="logo_follow"></img></Col>
                <Col xl={3} lg={6} md={3} sm={3} xs={3}> <img src="/Twitter.png" className="logo_follow"></img></Col>

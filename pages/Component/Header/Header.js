@@ -15,7 +15,7 @@ const Header = () => {
               <img src="/Digiency.png"></img>
             </NavbarBrand>
             <NavbarToggle />
-            <NavbarCollapse >
+            <NavbarCollapse className="header_collaps" >
               <Nav className="hamburger" expand="lg">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#about">About Us</Nav.Link>

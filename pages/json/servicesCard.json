@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "UXDesign.png",
+    "num" : "01",
+    "title": "UX Design",
+    "header": "Mobile App, Website",
+    "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 2,
+    "img": "GameDesign.png",
+    "num" : "02",
+    "title": "Game Design",
+    "header": "Mobile App, Website",
+    "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 3,
+    "img": "GraphicDesign.png",
+    "num" : "03",
+    "title": "Graphic Design",
+    "header": "Mobile App, Website",
+    "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 4,
+    "img": "web-design.png",
+    "num" : "04",
+    "title": "Web Design",
+    "header": "Mobile App, Website",
+    "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 5,
+    "img": "AppDevelopment.png",
+    "num" : "05",
+    "title": "App Devlopment",
+    "header": "Mobile App, Website",
+    "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 6,
+    "img": "DigitalMarketing.png",
+    "num" : "06",
+    "title": "Digital Marketing",
+    "header": "Mobile App, Website",
+    "discription": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  }
+]

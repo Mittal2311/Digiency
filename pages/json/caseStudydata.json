@@ -1,0 +1,70 @@
+[
+    {
+      "id": 1,
+      "cardType":"ux_design",
+      "img": "case1.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+    },
+    {
+      "id": 2,
+      "cardType":"Web_Design",
+      "img": "case2.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+     
+    },
+    {
+      "id": 3,
+      "cardType":"Web_Design",
+      "img": "case3.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+    },
+    {
+      "id": 4,
+      "cardType":"App_Development",
+      "img": "case4.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+    },
+    {
+      "id": 5,
+      "cardType":"Game_Design",
+      "img": "case5.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+    },
+    {
+      "id": 6,
+      "cardType":"App_Development",
+      "img": "case6.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+      
+    },
+    {
+      "id": 7,
+      "cardType":"Game_Design",
+      "img": "case7.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+      
+    },
+    {
+      "id": 8,
+      "cardType":"Graphic_Design",
+      "img": "case8.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+      
+    },
+    {
+      "id": 9,
+      "cardType":"Graphic_Design",
+      "img": "case9.png",
+      "arrow" : "Vector.png",
+      "title" : "Web Template"
+    }
+  ]
+  
