@@ -10,11 +10,11 @@ import Image from "next/image";
 const Comment = () => {
   return (
     <Container>
-      <Col xl={12} className="comment d-flex mt-5">
+      <Col xl={12} className="commenttitle d-flex mt-5">
         <Col xl={4} lg={4} md={4} sm={4} xs={4}>
           <h6 className="com1">3 Comments</h6>
         </Col>
-        <Col xl={4} lg={4} md={4} sm={4} xs={4} className="disque ">
+        <Col xl={4} lg={4} md={4} sm={4} xs={4} className="disque">
           <h6>Disque</h6>
         </Col>
         <Col
@@ -23,7 +23,7 @@ const Comment = () => {
           md={2}
           sm={2}
           xs={2}
-          className="gwen d-flex justify-content-end"
+          className="gwen d-flex justify-content-end mb-2"
         >
           <Image
             className="commentimage"
@@ -33,16 +33,16 @@ const Comment = () => {
             width={20}
           ></Image>
         </Col>
-        <Col xl={2} lg={2} md={2} sm={2} xs={2} className="disque ">
+        <Col xl={2} lg={2} md={2} sm={2} xs={2} className="disque">
           <h6>Gwen</h6>
         </Col>
       </Col>
       <Col className="ml">
-        <view className="line2"></view>
+        <view className="line"></view>
       </Col>
       <Row>
         <Col xl={12} className=" ht mt-2 d-flex ">
-          <Col xl={1} lg={1} md={1} sm={1} xs={1} className="heart mt-2">
+          <Col xl={1} lg={1} md={1} sm={1} xs={1} className="mt-2">
             <Image
               className="ht1"
               src="/ht1.png"
@@ -75,15 +75,16 @@ const Comment = () => {
           </Col>
         </Col>
         <Col xl={12} className="mt-4">
-          <InputGroup className="input1">
+          <InputGroup className="inputbox mt-2">
             <FormControl />
           </InputGroup>
         </Col>
 
         {/* rubren vetsrow  profile 1*/}
-        <Col xl={12} className="d-flex mt-4 profile1">
-          <Col xl={2} lg={2} md={4} sm={3} xs={4}>
+        <Col xl={12} className="d-flex mt-4">
+          <Col xl={2} lg={3} md={4} sm={3} xs={3}>
             <Image
+              className="ruben"
               src="/prof1.png"
               alt="profile1"
               height={80}
@@ -91,7 +92,7 @@ const Comment = () => {
             ></Image>
           </Col>
 
-          <Col xl={10} lg={10} md={12} sm={9} xs={8} className=" robot">
+          <Col xl={10} lg={9} md={8} sm={9} xs={9} className=" rubendetail">
             <h6>Robot Vester</h6>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -102,7 +103,7 @@ const Comment = () => {
 
         {/* Alfonso philips  profile 2*/}
 
-        <Col xl={12} className="d-flex mt-4 profile2">
+        <Col xl={12} className="d-flex mt-4">
           <Col xl={2} lg={2} md={3} sm={2} xs={2}></Col>
 
           <Col
@@ -111,9 +112,9 @@ const Comment = () => {
             md={11}
             sm={10}
             xs={10}
-            className=" robot d-flex"
+            className=" rubendetail d-flex"
           >
-            <Col xl={2} lg={2} md={4} sm={3} xs={4}>
+            <Col xl={2} lg={3} md={4} sm={3} xs={3}>
               <Image
                 src="/prof2.png"
                 alt="profile2"
@@ -122,7 +123,7 @@ const Comment = () => {
               ></Image>
             </Col>
 
-            <Col xl={10} lg={10} md={9} sm={9} xs={8}>
+            <Col xl={10} lg={9} md={8} sm={9} xs={9} className="alfonsodetail">
               <h6>Alfonso Philips</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -134,8 +135,8 @@ const Comment = () => {
 
         {/*cooper herwitz  profile 3*/}
 
-        <Col xl={12} xs={{ order: "last" }} className="d-flex mt-4 profile3">
-          <Col xl={2} lg={2} md={3} sm={2} xs={3}></Col>
+        <Col xl={12} xs={{ order: "last" }} className="d-flex mt-4">
+          <Col xl={2} lg={2} md={3} sm={2} xs={2}></Col>
 
           <Col
             xl={10}
@@ -143,9 +144,9 @@ const Comment = () => {
             md={11}
             sm={10}
             xs={10}
-            className=" robot d-flex"
+            className=" rubendetail d-flex"
           >
-            <Col xl={2} lg={2} md={4} sm={3} xs={4}>
+            <Col xl={2} lg={3} md={4} sm={3} xs={3}>
               <Image
                 src="/profile3.png"
                 alt="profile3"
@@ -154,7 +155,7 @@ const Comment = () => {
               ></Image>
             </Col>
 
-            <Col xl={10} lg={10} md={9} sm={9} xs={8}>
+            <Col xl={10} lg={9} md={8} sm={9} xs={9} className="cooperdetail">
               <h6>Cooper Herwitz</h6>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.

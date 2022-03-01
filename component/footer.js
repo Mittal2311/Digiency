@@ -5,7 +5,7 @@ import {
   InputGroup,
   FormControl,
   NavLink,
-} from "react-bootstrap";
+}from "react-bootstrap";
 import Image from "next/image";
 const Footer = () => {
   return (
@@ -18,61 +18,59 @@ const Footer = () => {
             md={{span:5}}
             sm={{ span: 8 }}
             xs={{span :10} }
-            className="item1"
-            style={{ marginTop: "30px" }}
+            className="footer mt-4 mb-3"
+            
           >
             <Image src="/digi.png" alt="logo" height="30" width="120"></Image>
-            <p style={{ marginTop: "20px", color: "white" }}>
+            <p>
               Lorem Ipsum is simply text of the printing and typesetting
               industry.Lorem Ipsum is simply text
             </p>
-            <div
-              className="d-flex justify-content-between"
-              style={{ marginTop: "30px", marginRight: "40px" }}
+            <Col xl={12} lg={12} md={12} sm={9} xs={10}
+              className="icons d-flex justify-content-between mt-4"
             >
               <NavLink className ="img1">
                 <Image
-                  src="/facebook2.png"
+                  src="/fb1.png"
                   alt="fb"
-                  height="20"
-                  width="20"
+                  height="15"
+                  width="15"
                 ></Image>
               </NavLink>
-              <NavLink style={{ background: "white" }}>
+              <NavLink className ="img1" >
                 <Image src="/insta.png" alt="fb" height="15" width="15"></Image>
               </NavLink>
-              <NavLink style={{ background: "white" }}>
+              <NavLink className ="img1">
                 <Image src="/tweet.png" alt="fb" height="15" width="15"></Image>
               </NavLink>
-              <NavLink style={{ background: "white" }}>
+              <NavLink className ="img1">
                 <Image src="/sky.png" alt="fb" height="15" width="15"></Image>
               </NavLink>
-            </div>
+            </Col>
           </Col>
           <Col
             xl={3}
             lg={3}
-            md={3}
+            md={{order:"3"}}
             sm={6}
             xs={6}
-            className="item2"
-            style={{ marginTop: "30px" }}
+            className="company mt-3"
           >
-            <h3 style={{ color: "white" }}>Company</h3>
-            <div style={{ marginLeft: "-5px" }}>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+            <h3>Company</h3>
+            <div className="company-list">
+              <NavLink className="nav-link" href="">
                 About Us
               </NavLink>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink href="">
                 Our Work
               </NavLink>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink href="">
                 Client
               </NavLink>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink href="">
                 Our Blog
               </NavLink>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink href="">
                 Contact Us
               </NavLink>
             </div>
@@ -80,27 +78,27 @@ const Footer = () => {
           <Col
             xl={3}
             lg={3}
-            md={3}
+            md={{order :"3"}}
             sm={6}
             xs={6}
-            className="item3"
-            style={{ marginTop: "30px" }}
+            className="services mt-3"
+           
           >
-            <h3 style={{ color: "white" }}>Services</h3>
+            <h3>Services</h3>
             <div style={{ marginLeft: "-5px" }}>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink className="nav-link" href="">
                 Graphic Design
               </NavLink>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink href="">
                 UI/UX design
               </NavLink>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink href="">
                 Web Development
               </NavLink>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink href="">
                 App Development
               </NavLink>
-              <NavLink href="" style={{ color: "white", padding: "3.5px" }}>
+              <NavLink href="">
                 Web Hosting
               </NavLink>
             </div>
@@ -108,21 +106,18 @@ const Footer = () => {
           <Col
             xl={3}
             lg={3}
-            md={{ span: 12 }}
-            sm={{ span: 12}}
-            className="item4"
-            style={{ marginTop: "30px" }}
+            md={{span:6}}
+            // sm={{ span: 12}}
+            className="Newsletter mt-3 mb-4 mx-auto"
+            
           >
-            <h3 style={{ color: "white" }}>NewsLetter</h3>
-            <p
-              style={{ color: "white", marginTop: "20px", marginLeft: "-3px" }}
-            >
+            <h3>NewsLetter</h3>
+            <p className="mt-4">
               Lorem Ipsum is simply text of the printing and typesetting
               industry.Lorem Ipsum is simply text
             </p>
             <InputGroup
-              className="mb-3"
-              style={{ border: "1px solid #FF5300", marginTop: "30px" }}
+              className="footer-inputbox"
             >
               <FormControl
                 placeholder="info@gmail.com"
@@ -132,7 +127,7 @@ const Footer = () => {
               />
               <InputGroup.Text
                 id="basic-addon2"
-                style={{ background: "#FF5300" }}
+               
               >
                 <Image
                   src="/img1.png"
@@ -145,39 +140,35 @@ const Footer = () => {
           </Col>
         </Row>
       </Container>
-      <div className=" copyright container-fluid" style={{ marginTop: "20px" }}>
-        <Row style={{ background: "#FF5300" }}>
+
+      <Col className=" copyright container-fluid" >
           <view className="d-flex">
             <img
+              className="copyrightimage"
               src="/c.png"
               alt="copyright"
               height="20"
               width="20"
-              style={{ marginTop: "13px", marginLeft: "70px" }}
             ></img>
-            <p style={{ marginTop: "9px", color: "white", marginLeft: "50px" }}>
+            <p>
               Copyright 2021.All Right Reserved By Ojjomedia
             </p>
             <Col>
               <div>
                 <Col>
                   <img
+                  className="arrow"
                     src="arrow.png"
                     alt="logo"
                     height={20}
                     width={20}
-                    style={{
-                      marginTop: "9px",
-                      float: "right",
-                      marginRight: "px",
-                    }}
                   ></img>
                 </Col>
               </div>
             </Col>
           </view>
-        </Row>
-      </div>
+      </Col>
+
     </div>
   );
 };
