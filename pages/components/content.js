@@ -23,17 +23,31 @@ const Content = (props) => {
             <img src={image} alt="main_image" />
           </div>
 
-          <div className="icons d-flex mt-4">
-            <div className="d-flex icons_img">
-              <img src={icon1} alt="icon1" /> <h6>{date}</h6>
-            </div>
-            <div className="d-flex icons_img">
-              <img src={icon2} alt="icon2" /> <h6>{name}</h6>
-            </div>
-            <div className="d-flex icons_img">
-              <img src={icon3} alt="icon3" /> <h6>{cmnt}</h6>
-            </div>
-          </div>
+          <Row className="icons d-flex mt-4">
+            <Col
+              xl={4}
+              lg={6}
+              md={6}
+              sm={6}
+              xs={6}
+              className="d-flex icons_img"
+            >
+              <img src={icon1} alt="icon1" /> <h5>{date}</h5>
+            </Col>
+            <Col
+              xl={4}
+              lg={6}
+              md={6}
+              sm={6}
+              xs={6}
+              className="d-flex icons_img"
+            >
+              <img src={icon2} alt="icon2" /> <h5>{name}</h5>
+            </Col>
+            <Col xl={4} className="d-flex icons_img col_3">
+              <img src={icon3} alt="icon3" /> <h5>{cmnt}</h5>
+            </Col>
+          </Row>
 
           <h1>{title}</h1>
 

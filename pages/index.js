@@ -36,6 +36,13 @@ const Home = () => {
               // eslint-disable-next-line react/jsx-key
               <Content data={item} />
             ))}
+            <Col xl={12} className="d-flex justify-content-center page_num">
+              <p>01</p>
+              <p>02</p>
+              <p>03</p>
+              <p>04</p>
+              <p>05</p>
+            </Col>
           </Col>
 
           <Col xl={4} lg={4} className="mb-5 mt-5 ">

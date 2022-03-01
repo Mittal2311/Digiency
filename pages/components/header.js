@@ -98,87 +98,110 @@ import {
   Offcanvas,
 } from "react-bootstrap";
 import NavbarCollapse from "react-bootstrap/NavbarCollapse";
-import NavbarToggle from "react-bootstrap/NavbarToggle";
 
 const Navv = () => {
   return (
     <>
       <Container>
         <Row>
-          <Navbar
-            className="app"
-            fixed="top"
-            sticky="top"
-            expand="lg"
-            variant="dark"
-          >
+          <Navbar className="app" sticky="top" expand="lg" variant="dark">
             <NavbarBrand>
               <img src="/Digiency.png" alt="logo" height={40} width={120}></img>
             </NavbarBrand>
 
-            <NavbarToggle
+            <Col
+              xl={{ order: "last" }}
+              lg={{ order: "last" }}
+              md={{ order: "second" }}
+              className="base1"
+            >
+              <img
+                className="base"
+                src="/base.png"
+                alt="logo"
+                height={20}
+                width={20}
+              ></img>
+            </Col>
+
+            <Navbar.Toggle
+              as="button"
+              aria-controls="navbarResponsive"
               className="toggle_menu"
-              style={{ color: "black", background: "black" }}
+              style={{
+                color: "black",
+                background: "black",
+              }}
             />
 
             <NavbarCollapse
+              id="navbarResponsive"
               style={{
                 fontFamily: "Work Sans",
               }}
             >
-              <Nav style={{ marginLeft: "30px" }}>
+              <Nav
+                style={{
+                  marginLeft: "30px",
+                }}
+              >
                 <Nav.Link
-                  className="text-center"
+                  className="text-end"
                   href="#home"
                   style={{
                     color: "black",
                     fontSize: "20px",
                     marginLeft: "18px",
                   }}
+                  to="/"
                 >
                   Home
                 </Nav.Link>
                 <Nav.Link
-                  className="text-center"
+                  className="text-end"
                   href="#about"
                   style={{
                     color: "black",
                     fontSize: "20px",
                     marginLeft: "18px",
                   }}
+                  to="/About Us"
                 >
                   About Us
                 </Nav.Link>
                 <Nav.Link
-                  className="text-center"
+                  className="text-end"
                   href="#work"
                   style={{
                     color: "black",
                     fontSize: "20px",
                     marginLeft: "18px",
                   }}
+                  to="/Our Work"
                 >
                   Our Work
                 </Nav.Link>
                 <Nav.Link
-                  className="text-center"
+                  className="text-end"
                   href="#clients"
                   style={{
                     color: "black",
                     fontSize: "20px",
                     marginLeft: "18px",
                   }}
+                  to="/Clients"
                 >
                   Clients
                 </Nav.Link>
                 <Nav.Link
-                  className="text-center"
+                  className="text-end"
                   href="#blog"
                   style={{
                     color: "black",
                     fontSize: "20px",
                     marginLeft: "18px",
                   }}
+                  to="/Our Blog"
                 >
                   Our Blog
                 </Nav.Link>
@@ -190,21 +213,12 @@ const Navv = () => {
                     fontSize: "20px",
                     marginLeft: "18px",
                   }}
+                  to="/Contact Us"
                 >
                   Contact Us
                 </Nav.Link>
               </Nav>
             </NavbarCollapse>
-
-            <NavbarBrand>
-              <img
-                className="base"
-                src="/base.png"
-                alt="logo"
-                height={20}
-                width={20}
-              ></img>
-            </NavbarBrand>
           </Navbar>
         </Row>
       </Container>

@@ -7,10 +7,10 @@ const Sidebar = (props) => {
     <>
       <Container className="cont_4 mt-4">
         <Row className="d-flex">
-          <Col xl={3} lg={3} md={2} sm={2} xs={3}>
+          <Col xl={3} lg={4} md={2} sm={2} xs={3}>
             <img src={image} alt="img" />
           </Col>
-          <Col xl={9} lg={9} md={10} sm={10} xs={9} className="col_2">
+          <Col xl={9} lg={8} md={10} sm={10} xs={9} className="col_2">
             {title}
           </Col>
         </Row>
