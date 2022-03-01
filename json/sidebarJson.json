@@ -1,0 +1,27 @@
+[ 
+    {
+        "id":1,
+        "image":"/sb1.png",
+        "title":"Minimal Post With A Preview Image"
+    },
+    {
+        "id":2,
+        "image":"/sd2.png",
+        "title":"Good Design Makes Me Happy"
+    },
+    {
+        "id":3,
+        "image":"/sb3.png",
+        "title":"Best 27 Design Blogs for 2021"
+    },
+    {
+        "id":4,
+        "image":"/sb4.png",
+        "title":"Creative Ways To Use Infographics For Your Business"
+    },
+    {
+        "id":5,
+        "image":"/sb5.png",
+        "title":"Tumblr Banner Templates : Tips To Get Better Engagement"
+    }
+]

@@ -1,10 +1,10 @@
 import React, { useState } from "react";
-import Footer from "./components/footer";
-import Navv from "./components/header";
-import Content from "./components/content";
-import Sidebar from "./components/sidebar";
-import Categories from "./components/categories";
-import Tags from "./components/tags";
+import Footer from "../components/footer";
+import Header from "../components/header";
+import Content from "../components/content";
+import Sidebar from "../components/sidebar";
+import Categories from "../components/categories";
+import Tags from "../components/tags";
 import {
   Container,
   Row,
@@ -13,11 +13,11 @@ import {
   FormControl,
   Card,
 } from "react-bootstrap";
-import contentJson from "./json/contentJson.json";
-import sidebarJson from "./json/sidebarJson.json";
-import categoriesJson from "./json/categoriesJson.json";
 
-import tagsJson from "./json/tagsJson.json";
+import contentJson from "../json/contentJson.json";
+import sidebarJson from "../json/sidebarJson.json";
+import categoriesJson from "../json/categoriesJson.json";
+import tagsJson from "../json/tagsJson.json";
 
 const Home = () => {
   const [contentData] = useState(contentJson);
@@ -27,16 +27,18 @@ const Home = () => {
 
   return (
     <>
-      <Navv />
+      {/*********  Header **********/}
+      <Header />
 
-      <Container className="cont_3">
+      {/********* Content *********/}
+      <Container className="content">
         <Row>
           <Col xl={8} lg={8} className="mb-5 ">
             {contentData.map((item) => (
               // eslint-disable-next-line react/jsx-key
               <Content data={item} />
             ))}
-            <Col xl={12} className="d-flex justify-content-center page_num">
+            <Col xl={12} className="page_numbers d-flex justify-content-center">
               <p>01</p>
               <p>02</p>
               <p>03</p>
@@ -45,6 +47,7 @@ const Home = () => {
             </Col>
           </Col>
 
+          {/********* Sidebar *********/}
           <Col xl={4} lg={4} className="mb-5 mt-5 ">
             <div className="mb-1">
               <InputGroup className="mb-5 search">
@@ -55,7 +58,8 @@ const Home = () => {
               </InputGroup>
             </div>
 
-            <Card className="card_title_1">
+            {/********* Sidebar_Card-1 *********/}
+            <Card className="Latest_Post">
               <h1>Latest Post</h1>
 
               {sidebarData.map((item) => (
@@ -64,7 +68,8 @@ const Home = () => {
               ))}
             </Card>
 
-            <Card className="card_title_2">
+            {/********* Sidebar_Card-2 *********/}
+            <Card className="Categories">
               <h1>Categories</h1>
 
               {categoriesData.map((item) => (
@@ -73,18 +78,21 @@ const Home = () => {
               ))}
             </Card>
 
-            <Card className="card_title_3 ">
+            {/********* Sidebar_Card-3 *********/}
+            <Card className="Tags">
               <h1>Tags</h1>
-
-              {tagsData.map((item) => (
-                // eslint-disable-next-line react/jsx-key
-                <Tags data={item} />
-              ))}
+              <Row>
+                {tagsData.map((item) => (
+                  // eslint-disable-next-line react/jsx-key
+                  <Tags data={item} />
+                ))}
+              </Row>
             </Card>
           </Col>
         </Row>
       </Container>
 
+      {/************ Footer *************/}
       <Footer />
     </>
   );
