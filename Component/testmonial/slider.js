@@ -8,13 +8,13 @@ const Cardslider = (props) => {
     return (
         <>
 
-            <Col xl={4} lg={4} md={6} sm={6} xs={12} card_col >
-                <div className="slider_box">
+            <Col xl={4} lg={4} md={4} sm={4} xs={4} className="col_test">
+                <div className='blog_class '>
                     <img src={img} />
                     <p>{discription}</p>
                     <div className="testimonial_bottom_contain">
                         <div className='slider_conatin'>
-                            <img src={bottomimg} />
+                            <img src={bottomimg}/>
                             <div className='bottom_part'>
                                 <h6>{title}</h6>
                                 <p>{header}</p>
@@ -24,7 +24,6 @@ const Cardslider = (props) => {
                     </div>
                 </div>
             </Col>
-
 
 
 

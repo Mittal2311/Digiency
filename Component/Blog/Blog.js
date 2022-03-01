@@ -5,6 +5,7 @@ import {
     Container,
     Row
 } from "react-bootstrap";
+import Carousel from 'react-bootstrap/Carousel'
 const Blog = () => {
     return (
         <div>
@@ -14,13 +15,14 @@ const Blog = () => {
                     <h2>Every Singel Update From Here</h2>
                 </div>
                 <Row>
+
                     <Col xl={4} lg={4} md={4} sm={6} className="blog_mainclass">
                         <div className='blog_class'>
                             <img src="blog1.png" className='blog_img' />
                             <h5>35 Stellar Graphic Design Blogs to Keep YouEducated and Inspired</h5>
-                        
-                                
-                         
+
+
+
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eget nunc, sed sed sed. Sit integer at dui at non ipsum tellus ac. Est.</p>
                             <Button className='blog_button'>Read More</Button>
                         </div>
@@ -42,6 +44,10 @@ const Blog = () => {
                             <Button className='blog_button'>Read More</Button>
                         </div>
                     </Col>
+
+
+
+
                 </Row>
             </Container>
         </div>

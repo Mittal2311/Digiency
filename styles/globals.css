@@ -75,7 +75,6 @@ a.footer_threetext {
   font-family: Poppins;
   font-size: 20px;
   color: white !important;
-
   text-decoration: none;
 }
 .h6,
@@ -529,7 +528,7 @@ button.blog_button.btn.btn-primary {
 /* =============================    slider      ======================================== */
 .testimonial_bg {
   background: #fff7f4;
-  padding: 5% 0px;
+  padding: 10% 0px;
 }
 .slider_box {
 
@@ -598,7 +597,9 @@ button.sub_btn.btn.btn-primary {
   text-align: left;
   padding-top: 10px;
 }
-
+.class_test.col-xl-4.col-lg-4.col-md-6.col-sm-6 {
+  padding-right: 15px;
+}
 /* =============================    Media Query      ======================================== */
 
 div h3 {
@@ -825,5 +826,18 @@ div h3 {
 }
 }
 .carousel-item-next, .carousel-item-prev, .carousel-item.active {
-  display: flex;
+  display: flex !important;}
+
+
+
+
+.myh3 .blog_class{
+  background: white;
+ 
+  font-size: 36px;
+ 
+  margin: 5px;
+  padding: 2%;
+
+  text-align: center;
 }
