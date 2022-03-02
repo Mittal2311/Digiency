@@ -1,0 +1,22 @@
+[
+  {
+    "cardimg": "images/mail.png",
+    "cardtitle": "Drop a line",
+    "cardsubtitle": "Mail Us",
+    "cardtext": "Support87@gmial.com",
+    "cardtext2": "ijkuiu874@gmial.com"
+  },
+  {
+    "cardimg": "images/phone-call.png",
+    "cardtitle": "24/7 Service",
+    "cardsubtitle": "Call Us",
+    "cardtext": "+880 265 98745",
+    "cardtext2": "+895 855 85589"
+  },
+  {
+    "cardimg": "images/map-pin.png",
+    "cardtitle": "Location",
+    "cardsubtitle": "Visit Us",
+    "cardtext": "158 ralegih sit, houston, yk 5896,uk "
+  }
+]

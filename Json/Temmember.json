@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "img": "images/Image (4).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Gustavo Herwitz",
+    "cardtext": "Ul/Ux Designer"
+  },
+  {
+    "id": 2,
+    "img": "images/Image (3).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Phillip Curtis",
+    "cardtext": "Graphic Designer"
+  },
+  {
+    "id": 3,
+    "img": "images/Image (2).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Talan Torff",
+    "cardtext": "Web Designer"
+  },
+  {
+    "id": 4,
+    "img": "images/Image (1).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Abram Vaccaro",
+    "cardtext": "App Developer"
+  },
+  {
+    "id": 5,
+    "img": "images/Image (4).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Gustavo Herwitz",
+    "cardtext": "Ul/Ux Designer"
+  },
+  {
+    "id": 6,
+    "img": "images/Image (3).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Gustavo Herwitz",
+    "cardtext": "Ul/Ux Designer"
+  },
+  {
+    "id": 7,
+    "img": "images/Image (2).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Gustavo Herwitz",
+    "cardtext": "Ul/Ux Designer"
+  },
+  {
+    "id": 8,
+    "img": "images/Image (4).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Gustavo Herwitz",
+    "cardtext": "Ul/Ux Designer"
+  },
+  {
+    "id": 9,
+    "img": "images/Image (2).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Gustavo Herwitz",
+    "cardtext": "Ul/Ux Designer"
+  },
+  {
+    "id": 10,
+    "img": "images/Image (1).png",
+    "img2": "images/facebook.png",
+    "img3": "images/instagram.png",
+    "img4": "images/twitter.png",
+    "img5": "images/skype.png",
+    "cardheading": "Abram Vaccaro",
+    "cardtext": "App Developer"
+  }
+]

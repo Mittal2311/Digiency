@@ -261,8 +261,8 @@ input[type="text"] {
   margin-bottom: 150px !important;
 }
 .secoundcomp_img {
-  width: 90%;
-  height: 90%;
+  width: 100%;
+  height: 100%;
 }
 .secoundcomp_h5 {
   color: #e9ecef;
@@ -377,7 +377,36 @@ input[type="text"] {
   color: #7b7b7b !important;
 }
 
-/* FourthComp Section */
+/* Teammember Section */
+/* .teammember_carousel.active{
+  display: flex !important; */
+/* flex-direction: column !important; */
+/* } */
+/* .carousel_clients.active {
+  display: flex !important;
+  justify-content: space-evenly !important;
+} */
+/* .teammember_carousel-next{
+  display: none !important;
+} */
+/* .carousel-item-next {
+  display: flex !important;
+  justify-content: space-evenly !important;
+} */
+/* .teammember_carousel-prev{
+  display: none !important;
+} */
+/* .carousel-item-prev {
+  display: flex !important;
+  justify-content: space-evenly !important;
+} */
+/* .teammember_carousel-indicators{
+  display: none !important;
+} */
+/* .carousel-indicators {
+  margin-bottom: -1.5rem !important;
+} */
+
 .fourthcomp {
   background-color: #18191a;
 }
@@ -386,9 +415,11 @@ input[type="text"] {
   padding: 0px !important;
 }
 .fourthcomp_card {
+  width: 90%;
   border: none !important;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   margin-top: 30px;
+  margin-left: 15px;
 }
 
 .fourthcom_img {
@@ -408,7 +439,7 @@ input[type="text"] {
   color: #ff5300;
 }
 .fourthcomp h5 {
-  margin-top: 100px !important;
+  padding-top: 100px !important;
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
@@ -471,8 +502,8 @@ input[type="text"] {
   right: 0px;
   top: 190px;
 }
-.fourthcom_firstDiv:hover,
-.fourthcom_fourImg:hover,
+/* .fourthcom_firstDiv:hover, */
+/* .fourthcom_fourImg:hover, */
 .fourthcomp_card:hover {
   opacity: 0.9;
 }
@@ -494,6 +525,7 @@ input[type="text"] {
   background-color: #18191a;
 }
 .fifthcomp h5 {
+  padding-top: 100px;
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
@@ -665,10 +697,16 @@ input[type="text"] {
   position: relative;
 }
 .compsix_headdiv {
-  margin-top: -30% ;
+  margin-top: -30%;
   padding: 15% !important;
 }
-.compsix_firstdiv,
+.compsix_firstdiv {
+  background: #ff5300;
+  margin: 0px 15px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+  width: 470px !important;
+  height: 250px !important;
+}
 .compsix_secounddiv {
   background: #ff5300;
   margin: 0px 15px;
@@ -1059,7 +1097,7 @@ input[type="email"] {
     margin-top: 70px !important;
   }
   /* our Blog Component */
-  .firstdiv_h4{
+  .firstdiv_h4 {
     font-size: 20px;
   }
 }
@@ -1067,6 +1105,9 @@ input[type="email"] {
   .navbar-light .navbar-toggler {
     color: #e9ecef !important;
     border-color: #f8f9fa !important;
+  }
+  .navbar-nav{
+    margin-left: auto !important;
   }
   .navbar {
     display: flex !important;
@@ -1081,6 +1122,9 @@ input[type="email"] {
   }
   .third_div {
     margin: 0px 0px;
+  }
+  .fourth_div{
+    margin-left: 38px;
   }
 
   .footer_secounddiv,
@@ -1135,7 +1179,8 @@ input[type="email"] {
   .thirdcard_div {
     margin-top: 0px;
   }
-  /* fourthcomp section */
+  /* Teammember Section */
+
   .fourthcom_firstDiv {
     margin-bottom: 0px;
   }
@@ -1193,7 +1238,7 @@ input[type="email"] {
   }
   /* our blogcomp section */
   .ourblogcomp_firstcomp {
-    padding: 0px;
+    padding: 20px;
     margin: 0 11% !important;
     position: relative;
     width: 550px !important;
@@ -1210,7 +1255,7 @@ input[type="email"] {
     width: auto;
     height: auto;
     left: 10px;
-    bottom: 0px !important;
+    /* bottom: 0px !important; */
   }
   .wahh {
     margin-left: 100px;
@@ -1247,6 +1292,15 @@ input[type="email"] {
   .contactus_last-img {
     width: 20%;
     /* margin-bottom: 50px; */
+  }
+  .teammember_carousel.active {
+    display: flex !important;
+    /* flex-direction: row !important; */
+    justify-content: left !important;
+  }
+  .teammember_carousel-item-next {
+    /* display: flex !important; */
+    width: 100% !important;
   }
 }
 
@@ -1380,6 +1434,11 @@ input[type="email"] {
     position: absolute;
     left: 40%;
   }
+  .secoundcomp_img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
   .secoundcomp_h2 {
     font-size: 37.06px;
   }
@@ -1412,6 +1471,9 @@ input[type="email"] {
   /* fourthcomp section */
   .fourthcom_firstDiv {
     margin-bottom: 0px;
+  }
+  .fourthcomp h3{
+    font-size: 17px;
   }
   .fourthcomp_social-icon {
     position: absolute;
@@ -1501,11 +1563,11 @@ input[type="email"] {
   }
   /* our blogcomp section */
   .ourblogcomp_firstcomp {
-    padding: 0px;
+    padding: 20px;
     margin: 0 0px !important;
     position: relative;
-    width: 530px !important;
-    max-height: 294px;
+    width: auto !important;
+    height: auto !important;
     background: #242526;
     box-shadow: 0px 1px 10px rgb(0 0 0 / 10%);
   }
@@ -1521,7 +1583,6 @@ input[type="email"] {
     width: auto;
     height: auto;
     left: 10px;
-    bottom: 0px !important;
   }
   .wahh {
     margin-left: 100px;
@@ -1556,6 +1617,12 @@ input[type="email"] {
   }
 }
 @media (max-width: 575px) and (min-width: 350px) {
+  /* about us */
+  .secoundcomp_img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
   .fourthcomp_social-icon {
     position: absolute;
     width: 40px;
@@ -1619,11 +1686,11 @@ input[type="email"] {
   }
   /* our blogcomp section */
   .ourblogcomp_firstcomp {
-    padding: 0px;
+    padding: 20px;
     margin: 0 70px !important;
     position: relative;
-    width: 423px !important;
-    max-height: 294px;
+    width: auto !important;
+    height: auto !important;
     background: #242526;
     box-shadow: 0px 1px 10px rgb(0 0 0 / 10%);
   }
@@ -1643,7 +1710,6 @@ input[type="email"] {
     width: auto;
     height: auto;
     left: 10px;
-    bottom: 0px !important;
   }
   .wahh {
     margin-left: 100px;
@@ -1844,9 +1910,24 @@ input[type="email"] {
     margin-left: 0;
     margin-bottom: 0;
   }
+  .compsix_headdiv {
+    margin-top: -20%;
+    padding: 17% !important;
+  }
+  .compsix_firstdiv h3,
+  .compsix_secounddiv h3 {
+    font-size: auto !important;
+  }
+  .compsix_firstdiv h6,
+  .compsix_secounddiv h6 {
+    font-size: auto !important;
+  }
+  .compsix_firstdiv p {
+    font-size: auto !important;
+  }
   /* our blogcomp section */
   .ourblogcomp_firstcomp {
-    padding: 0px;
+    padding: 20px;
     margin: auto !important;
     position: relative;
     width: auto !important;
@@ -1866,7 +1947,6 @@ input[type="email"] {
     width: auto;
     height: auto;
     left: 10px;
-    bottom: 0px !important;
   }
   .wahh {
     margin-left: 100px;
@@ -1931,6 +2011,19 @@ input[type="email"] {
   /* fourthcomp section */
   .fourthcomp h2 {
     font-size: 33.06px;
+  }
+  /* clients feedback */
+  .compsix_headdiv {
+    margin-top: -25%;
+    margin-left: 10px;
+    padding: 20% !important;
+  }
+  .compsix_firstdiv p {
+    font-size: 11px;
+  }
+  .compsix_firstdiv h3,
+  .compsix_secounddiv h3 {
+    font-size: 20px;
   }
 }
 
@@ -2020,6 +2113,11 @@ input[type="email"] {
   .secoundcomp_firstdiv {
     margin-top: 0px !important;
   }
+  .secoundcomp_img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
   .secoundcomp_h5 {
     display: flex;
     justify-content: center;
@@ -2081,7 +2179,7 @@ input[type="email"] {
   /* clients Feedback Section */
   /* .compsix_firstdiv{ */
   .compsix_firstdiv {
-    margin: auto !important;
+    /* margin: auto !important; */
     width: auto !important;
   }
   .compsix_img-1 {
@@ -2090,9 +2188,9 @@ input[type="email"] {
     margin-bottom: 0;
   }
 
-  .compsix_firstdiv p {
+  /* .compsix_firstdiv p {
     font-size: 12px;
-  }
+  } */
   /* our blogcomp section */
   .ourblogcomp_firstcomp {
     padding: 0px;
@@ -2129,7 +2227,10 @@ input[type="email"] {
     /* padding-top: -20px !important; */
   }
   .firstdiv_h4 {
-    font-size: 17px;
+    font-size: 15px;
+  }
+  .secound_h6{
+    font-size: 12px;
   }
   .contactus_div2-card {
     margin-bottom: 10px !important;
@@ -2138,4 +2239,26 @@ input[type="email"] {
     width: 20%;
     /* margin-bottom: 50px; */
   }
+  /* clients feedback */
+  .compsix_headdiv {
+    margin-top: -25%;
+    margin-left: 10px;
+    padding: 20% !important;
+  }
+  .compsix_firstdiv p {
+    font-size: 11px;
+  }
+  .compsix_firstdiv h3,
+  .compsix_secounddiv h3 {
+    font-size: 20px;
+  }
+  .compsix_firstdiv {
+    margin: auto;
+    width: auto !important;
+    margin-bottom: 20px;
+  }
+}
+
+.slick-dots li button:before {
+  color: #e9ecef !important;
 }

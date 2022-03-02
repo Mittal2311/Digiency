@@ -1,15 +1,15 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Footer from "./Footer";
-import NavComp from "./NavComp";
-import Header from "./Header";
-import Secoundcomp from "./Secoundcomp";
-import ThirdComp from "./ThirdComp";
-import Teammember from "./Teammember";
-import FifthComp from "./FifthComp";
-import ClientsFeedback from "./ClientsFeedback";
-import OurBlogcomp from "./OurBlogcomp";
-import ContactUs from "./ContactUS";
+import Footer from "../component/Footer";
+import NavComp from "../component/NavComp";
+import Banner from "../component/Banner";
+import AboutUs from "../component/AboutUs";
+import OurExperiance from "../component/OurExperiance";
+import Teammember from "../component/Teammember";
+import OurWork from "../component/OurWork";
+import ClientsFeedback from "../component/ClientsFeedback";
+import OurBlogcomp from "../component/OurBlogcomp";
+import ContactUs from "../component/ContactUS";
 
 export default function Home() {
   return (
@@ -23,20 +23,21 @@ export default function Home() {
       <div>
         <NavComp></NavComp>
       </div>
+      
       <div>
-        <Header></Header>
+        <Banner />
       </div>
       <div>
-        <Secoundcomp></Secoundcomp>
+        <AboutUs />
       </div>
       <div>
-        <ThirdComp />
+        <OurExperiance />
       </div>
       <div>
         <Teammember></Teammember>
       </div>
       <div>
-        <FifthComp></FifthComp>
+        <OurWork />
       </div>
       <div>
         <ClientsFeedback></ClientsFeedback>
