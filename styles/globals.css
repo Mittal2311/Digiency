@@ -201,6 +201,10 @@
   color: #7b7b7b;
   float: right;
 }
+#drop:focus , #drop:active{
+  box-shadow: none; 
+  /* outline: none; */
+}
 .inputbox {
   border: 1px solid #767676;
   border-radius: 10px;
@@ -366,7 +370,7 @@
 }
 .cont .company .nav-link{
   color: white;
-  padding: 3.5px;
+  padding: 6px;
 }
 .cont .footer .company{
   margin-top: 30px;
@@ -376,7 +380,7 @@
 }
 .cont .services .nav-link{
   color:white;
-  padding: 3.5px;
+  padding: 6px;
 }
 .Newsletter h3{
   color:white;
