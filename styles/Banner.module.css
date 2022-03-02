@@ -1,0 +1,19 @@
+
+.banner_heading {
+    font-family: Poppins !important;
+    font-style: normal !important;
+    font-weight: bold !important;
+    font-size: 48.83px !important;
+    margin-bottom: 15px !important;
+    line-height: 73px !important;
+}
+.banner_parg {
+    font-family: Poppins !important;
+    color: #7B7B7B;
+}
+.banner_part {
+    margin: 100px 0 !important;
+}
+.banner_girl {
+    margin-top: 10%;
+}

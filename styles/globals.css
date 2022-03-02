@@ -377,7 +377,6 @@ img.fb {
 .ourwork_section .overlay img  {
   width: 33px;
   height: 33px;
-  /* background-color: black; */
   position: absolute;
     top: 55%;
     left: 44%;
@@ -880,12 +879,13 @@ input.form-control {
   .brand_section{padding: 20px 0;}
   .brand_img img{width: 100%;}
   .blog_cont h2{font-size: 13px; line-height: 20px;}
-  .blog_cont .blogimg{width: 100px;
-    height: 100px;}
+  .blog_cont .blogimg{width: 100px; height: 100px;}
     .blog_desc{padding: 8px 5px;}
     .blog_info h3{font-size: 16px;}
     .blog_info{display: inline-flex;}
   .blog_info img{width: 60px; height: 60px;}
+  .header_icon{margin-right: 64%;}
+  
 }
 @media only screen and (max-width: 768px) {
   .navbar-brand{
@@ -903,6 +903,7 @@ input.form-control {
     padding-top: 53px;
     margin-right: 11px;
   }
+  .header_icon{margin-right: 54%;}
 }
 @media only screen and (max-width: 767px) {
   .banner_img {

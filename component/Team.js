@@ -6,12 +6,11 @@ import Slider from "react-slick";
 import Teamjson from "../json/team.json";
 
 const Team = (props) => {
-  // const { teamimg,teamheading,teamtitle } = props.data;
   const [teamData] = useState(Teamjson);
   const settings = {
     dots: false,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     slidesToShow: 4,
     slidesToScroll: 1,
@@ -46,22 +45,6 @@ const Team = (props) => {
 
   return (
     <>
-      {/* {teamData.map((i) => console.log("iiii", i))} */}
-
-      {/* <Col xl={3} lg={3} className="team">
-        {teamData.map((item) => (
-          <div className="slider_cont">
-            <>
-              <Image src={item.teamimg} />
-              <div className="team_cont">
-                <h2>{item.teamheading}</h2>
-                <span>{item.teamtitle}</span>
-              </div>
-            </>
-          </div>
-        ))}
-      </Col> */}
-
       <Row className="myh3">
         <Slider {...settings}>
         {teamData.map((item) => (

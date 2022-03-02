@@ -16,9 +16,6 @@ import Contactus from "../component/Contactus";
 import Mapgoogle from "../component/Mapgoogle";
 import Brand from "../component/Brand";
 
-
-
-
 export default function Home() {
  const [teamData] = useState(Teamjson);
   return (

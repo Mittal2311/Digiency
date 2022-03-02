@@ -19,12 +19,10 @@ const Header = () => {
               <Col xl={{ order: "last" }} lg={{ order: "last" }}>
                 <img src="/Dark.png" className="header_icon" />
               </Col>
-            
               <NavbarToggle />
-
               <NavbarCollapse id="responsive-navbar-nav">
                 <Nav>
-                  <Nav.Link href="">Home</Nav.Link>
+                  <Nav.Link href="Desktop">Home</Nav.Link>
                   <Nav.Link href="">About Us</Nav.Link>
                   <Nav.Link href="">Our Work</Nav.Link>
                   <Nav.Link href="">Clients</Nav.Link>
