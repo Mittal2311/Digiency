@@ -660,3 +660,11 @@
 
   }
 }
+@media(max-width:320px){
+.cont .services .nav-link{
+ font-size: 15px;
+}
+.cont .company .nav-link{
+  font-size: 15px;
+ }
+}  
