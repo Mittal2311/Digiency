@@ -782,7 +782,6 @@ input.form-control {
   display: inline-block;
   vertical-align: middle;
 }
-
 .footer_section .social_icons .nav-link{
   background-color: white;
   margin-bottom: 10px;
@@ -827,6 +826,10 @@ input.form-control {
 } */
 
 /* footer section css end  */
+
+
+
+  
 
 /* Responsive css start  */
 
@@ -885,7 +888,6 @@ input.form-control {
     .blog_info{display: inline-flex;}
   .blog_info img{width: 60px; height: 60px;}
   .header_icon{margin-right: 64%;}
-  
 }
 @media only screen and (max-width: 768px) {
   .navbar-brand{

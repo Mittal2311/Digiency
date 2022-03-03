@@ -1,0 +1,80 @@
+
+
+.casesstudy_section {
+    padding: 100px 0;
+    display: inline-block;
+    width: 100%;
+}
+.our_case {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5300;
+}
+.our_case:before , .our_case:after{
+    content: '';
+    border-bottom: 1px solid #FF5300;
+    width: 40px;
+    display: inline-block;
+    margin: 4px 10px;
+}
+.case_heading{
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FF5300;
+    margin-bottom: 15px !important;
+}
+.casestudy_header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    overflow: auto;
+    white-space: nowrap;
+    flex-wrap: nowrap;
+}
+.studyimg {
+    width: 100%;
+    position: relative;
+}
+.gutter {
+    --bs-gutter-x: 0 !important;
+}
+.studylink {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #7B7B7B !important;
+}
+.studylink .active{
+background-color: #ff5300 !important;
+color: white !important;
+}
+.up_arrow {
+    background-color: black;
+}
+
+
+
+
+/* Responsive start  */
+
+@media only screen and (max-width: 1199px) {
+}
+@media only screen and (max-width: 992px) {
+    .studylink{padding: 0 10px !important;}
+
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 767px) {
+}
+@media only screen and (max-width: 567px) {
+}
+/* Responsive end  */

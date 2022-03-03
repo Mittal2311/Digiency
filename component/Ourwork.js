@@ -14,6 +14,7 @@ const Ourwork = () => {
     });
     setWorkData(updatedItems);
   };
+  
   const breakpoints = {
     default: 3,
     1199: 3,

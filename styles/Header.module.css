@@ -32,10 +32,9 @@
     font-size: 20px;
     line-height: 30px;
     padding: 10px 19px !important;
-    margin-right: 8px;
 }
 .navlink .active{
-    color: #FF5300;;
+    color: #FF5300 !important;
 }
 /* header section css end  */
 /* Footer section css start  */
@@ -100,9 +99,11 @@ color: #FFFFFF;
     margin: 5px 10px;
 }
 .arrow {
-    background-color: red;
+    background: #FF5300;    
     border-radius: 26px;
     float: right;
+    margin-top: -11px !important;
+    cursor: pointer;
 }
 .footer_line {
     border-bottom: 1px solid white;
@@ -110,13 +111,9 @@ color: #FFFFFF;
 }
 /* Footer section css END  */
 
-
-
-
 /* Responsive start  */
-
 @media only screen and (max-width: 1199px) {
-    .navlink {padding: 10px 10px !important; font-size: 17px;}
+    .navlink {padding: 10px 10px !important; font-size: 17px;   margin-right: 0px;}
 }
 
 @media only screen and (max-width: 992px) {

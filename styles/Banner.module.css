@@ -12,8 +12,28 @@
     color: #7B7B7B;
 }
 .banner_part {
-    margin: 100px 0 !important;
+    margin-top: 16% !important;
 }
 .banner_girl {
     margin-top: 10%;
 }
+
+
+/* Responsive start  */
+
+@media only screen and (max-width: 1199px) {
+    .banner_heading{font-size: 34.83px !important;line-height: 50px !important;}
+}
+@media only screen and (max-width: 992px) {
+    .banner_heading{font-size: 27px !important;line-height: 44px !important;}
+}
+@media only screen and (max-width: 768px) {
+   
+}
+@media only screen and (max-width: 767px) {
+    .banner_part{text-align: center; margin-top: 8% !important;}
+}
+@media only screen and (max-width: 567px) {
+  
+}
+/* Responsive end  */
