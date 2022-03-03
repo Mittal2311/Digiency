@@ -9,23 +9,23 @@ const NavComp = () => {
             <Image src="./images/LOGO.png" />
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-              <Nav className="me-auto">
-                <Nav.Link className="nav-item" href="#home">
+              <Nav className="me-auto  nav-text">
+                <Nav.Link className="nav-item" href="Desktop">
                   Home
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="#home">
+                <Nav.Link className="nav-item" href="#">
                   About Us
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="#link">
+                <Nav.Link className="nav-item" href="#">
                   Our Work
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="#link">
+                <Nav.Link className="nav-item" href="#">
                   Clients
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="#link">
+                <Nav.Link className="nav-item" href="#">
                   Our Blog
                 </Nav.Link>
-                <Nav.Link className="nav-item" href="#link">
+                <Nav.Link className="nav-item" href="#">
                   Contact Us
                 </Nav.Link>
               </Nav>

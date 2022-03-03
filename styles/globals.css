@@ -624,7 +624,9 @@ input[type="text"] {
 .imgWidth {
   opacity: 0;
   top: 40%;
+  bottom: 50%;
   left: 40%;
+  right: 50%;
   position: absolute;
   width: 33px !important;
   height: 33px;
@@ -633,24 +635,24 @@ input[type="text"] {
 .fifhtcomp_h2div-1 {
   opacity: 0;
   position: absolute;
-  top: 65%;
-  left: 30%;
+  top: 57%;
+  left: 31%;
   font-family: Work Sans;
   font-style: normal;
   font-weight: 500;
-  font-size: 14px;
+  font-size: 25px;
   line-height: 123.6%;
   color: #ffffff;
 }
 .fifthcomp_pdiv-1 {
   opacity: 0;
   position: absolute;
-  top: 75%;
-  left: 35%;
+  top: 68%;
+  left: 34%;
   font-family: Work Sans;
   font-style: normal;
   font-weight: normal;
-  font-size: 10px;
+  font-size: 18px;
   line-height: 150.6%;
   color: #ffffff;
 }
@@ -1032,8 +1034,8 @@ input[type="email"] {
   } */
 }
 @media (max-width: 1200px) and (min-width: 992px) {
-  .navbar-light .navbar-nav .nav-link {
-    padding: 0px !important;
+  .nav-item {
+   padding: 0 !important;
   }
   /* footer */
   .col-lg-3 {
@@ -1210,6 +1212,40 @@ input[type="email"] {
     width: 324px;
     height: 470px;
     margin-top: 0px;
+  }
+  .imgWidth {
+    opacity: 0;
+    top: 40%;
+    bottom: 50%;
+    left: 40%;
+    right: 50%;
+    position: absolute;
+    width: 30px !important;
+    height: 30px;
+  }
+  
+  .fifhtcomp_h2div-1 {
+    opacity: 0;
+    position: absolute;
+    top: 57%;
+    left: 22%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 123.6%;
+    color: #ffffff;
+  }
+  .fifthcomp_pdiv-1 {
+    opacity: 0;
+    position: absolute;
+    top: 70%;
+    left: 27%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 150.6%;
   }
   /* carousel  */
   .carousel_clients.active {
@@ -1530,6 +1566,40 @@ input[type="email"] {
     width: 324px;
     height: 470px;
     margin-top: 0px;
+  }
+  .imgWidth {
+    opacity: 0;
+    top: 30%;
+    bottom: 50%;
+    left: 40%;
+    right: 50%;
+    position: absolute;
+    width: 25px !important;
+    height: 25px;
+  }
+  
+  .fifhtcomp_h2div-1 {
+    opacity: 0;
+    position: absolute;
+    top: 53%;
+    left: 18%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 123.6%;
+    color: #ffffff;
+  }
+  .fifthcomp_pdiv-1 {
+    opacity: 0;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 150.6%;
   }
   /* carousel */
   .carousel_clients.active {

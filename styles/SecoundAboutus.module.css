@@ -1,0 +1,66 @@
+.SecoundAboutus {
+  background: #fff7f4;
+}
+.SecoundAboutus_firstdiv_h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff5300;
+}
+.SecoundAboutus_firstdiv_h2 {
+  margin: 20px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.0625px;
+  line-height: 59px;
+  color: #373737;
+}
+.SecoundAboutus_firstdiv_p {
+  margin: 20px 0px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7b7b7b;
+}
+
+.SecoundAboutus_firstdiv_ul {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #373737;
+}
+.SecoundAboutus_row {
+  padding: 100px 0px;
+}
+.SecoundAboutus_secounddiv {
+  width: 100%;
+  height: 100%;
+}
+.SecoundAboutus_secounddiv_img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 767px) and (min-width: 567px) {
+  .SecoundAboutus_firstdiv_h6 {
+    display: flex;
+    justify-content: center;
+  }
+}
+@media (max-width: 566px) and (min-width: 320px) {
+  .SecoundAboutus_firstdiv_h6 {
+    display: flex;
+    justify-content: center;
+  }
+  .SecoundAboutus_firstdiv_h2{
+      font-size: 25px;
+      line-height: 48px;
+  }
+}

@@ -21,9 +21,9 @@ export default function Home() {
       </Head>
 
       <div>
-        <NavComp></NavComp>
+        <NavComp />
       </div>
-      
+
       <div>
         <Banner />
       </div>
@@ -34,22 +34,22 @@ export default function Home() {
         <OurExperiance />
       </div>
       <div>
-        <Teammember></Teammember>
+        <Teammember />
       </div>
       <div>
         <OurWork />
       </div>
       <div>
-        <ClientsFeedback></ClientsFeedback>
+        <ClientsFeedback />
       </div>
       <div>
-        <OurBlogcomp></OurBlogcomp>
+        <OurBlogcomp />
       </div>
       <div>
-        <ContactUs></ContactUs>
+        <ContactUs />
       </div>
       <div>
-        <Footer></Footer>
+        <Footer />
       </div>
     </div>
   );

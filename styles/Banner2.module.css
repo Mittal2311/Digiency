@@ -1,0 +1,81 @@
+.banner2Comp {
+  background-color: #fff7f4;
+}
+.Banner2_container {
+  position: relative;
+}
+.banner2Comp_row {
+  padding-top: 100px;
+}
+.Banner2_col1 {
+  margin-top: 10%;
+}
+.Banner2_firstdiv_h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48.83px;
+  line-height: 73px;
+  color: #373737;
+}
+.Banner2_firstdiv_p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7b7b7b;
+}
+.Banner2_firstdiv_btn {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  background: #ff5300;
+  border-radius: 5px;
+  color: #ffffff;
+}
+@media (max-width: 1200px) and (min-width: 993px) {
+}
+
+@media (max-width: 992px) and (min-width: 767px) {
+  .Banner2_firstdiv_h1 {
+    font-size: 26px;
+    line-height: 39px;
+  }
+}
+
+@media (max-width: 766px) and (min-width: 567px) {
+  .Banner2_firstdiv_h1 {
+    font-size: 26px;
+    line-height: 39px;
+  }
+  .Banner2_col1 {
+    margin-top: 5%;
+    /* position: relative; */
+  }
+  .Banner2_firstdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .Banner2_firstdiv_btn {
+    align-self: center;
+  }
+}
+@media (max-width: 566px) and (min-width: 320px) {
+  .Banner2_firstdiv_h1 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .Banner2_col1 {
+    margin-top: 5%;
+  }
+  .Banner2_firstdiv {
+    display: flex;
+    flex-direction: column;
+  }
+  .Banner2_firstdiv_btn {
+    align-self: center;
+  }
+}

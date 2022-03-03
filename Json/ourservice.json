@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "img": "Desktop-images/ux-interface.svg",
+    "h1": "01",
+    "h3": "UX Design",
+    "h6": "Mobile App, Website",
+    "p": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 2,
+    "img": "Desktop-images/gaming.svg",
+    "h1": "02",
+    "h3": "Game Design",
+    "h6": "Mobile App, Website",
+    "p": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 3,
+    "img": "Desktop-images/design.svg",
+    "h1": "03",
+    "h3": "Graphic Design",
+    "h6": "Mobile App, Website",
+    "p": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 4,
+    "img": "Desktop-images/web-design.svg",
+    "h1": "04",
+    "h3": "Web Design",
+    "h6": "Mobile App, Website",
+    "p": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 5,
+    "img": "Desktop-images/mobile-development.svg",
+    "h1": "05",
+    "h3": "App Development",
+    "h6": "Mobile App, Website",
+    "p": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  },
+  {
+    "id": 6,
+    "img": "Desktop-images/digital-marketing.svg",
+    "h1": "06",
+    "h3": "Digital Marketing",
+    "h6": "Mobile App, Website",
+    "p": "Lorem ipsum dolor sit amet, consec tet ur adipiscing elit. Accumsan sed faucibu s faucibus augue. Cras ut."
+  }
+]
