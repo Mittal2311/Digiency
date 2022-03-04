@@ -1,0 +1,107 @@
+.Ourtestimonial {
+  background: #fff7f4;
+}
+.Ourtestimonial_h6 {
+  padding-top: 80px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ff5300;
+}
+.Ourtestimonial_h1 {
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.0625px;
+  line-height: 59px;
+  text-align: center;
+  color: #373737;
+}
+.Ourtestimonial_row{
+    padding-bottom: 100px;
+}
+.Ourtestimonial_cardmain_div_img {
+  margin-bottom: 10px;
+}
+.Ourtestimonial_cardmain_div_p {
+  margin-bottom: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7b7b7b;
+}
+.Ourtestimonial_cardsecound_div_heading_h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #ff5300;
+}
+.Ourtestimonial_cardsecound_div_heading_h7 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 19px;
+  color: #7b7b7b;
+}
+.Ourtestimonial_cardmain_div {
+  margin: 0px 20px;
+  width: auto;
+  height: 271px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 30px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+}
+.Ourtestimonial_cardsecound_div {
+  display: flex;
+  justify-content: space-between;
+}
+.Ourtestimonial_cardsecound_heading_img{
+    width: auto;
+}
+
+@media (max-width: 1200px) and (min-width: 320px) {
+  .Ourtestimonial_cardmain_div {
+    /* margin: 0px 50px; */
+    width: auto;
+    height: auto;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    padding: 30px;
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+  }
+  .Ourtestimonial_cardmain_div_img {
+    width: auto;
+  }
+
+  .Ourtestimonial_cardmain_div_p {
+    font-size: auto;
+    line-height: auto;
+  }
+  .Ourtestimonial_cardsecound_div_heading_h5 {
+    font-size: auto;
+    line-height: auto;
+  }
+  .Ourtestimonial_cardsecound_div_heading_h7 {
+    font-size: auto;
+    line-height: auto;
+  }
+}
+@media (max-width: 400px) and (min-width: 320px) {
+  .Ourtestimonial_cardsecound_heading_img{
+      display: none !important;
+  }
+}

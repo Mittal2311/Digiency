@@ -1,0 +1,56 @@
+[
+  {
+    "id": 1,
+    "img": "Desktop-images/Component 1.svg",
+    "p": " Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+    "img1": "Desktop-images/Image (10).svg",
+    "h5": "Phillip Levin",
+    "h7": "CEO / Creative IT",
+    "img2": "Desktop-images/Vector.svg"
+  },
+  {
+    "id": 2,
+    "img": "Desktop-images/Component 1.svg",
+    "p": " Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+    "img1": "Desktop-images/Image (11).svg",
+    "h5": "Phillip Levin",
+    "h7": "Lincoln Lipshutz",
+    "img2": "Desktop-images/Vector.svg"
+  },
+  {
+    "id": 3,
+    "img": "Desktop-images/Component 1.svg",
+    "p": " Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+    "img1": "Desktop-images/Image (12).svg",
+    "h5": "Craig Siphron",
+    "h7": "Lincoln Lipshutz",
+    "img2": "Desktop-images/Vector.svg"
+  },
+  {
+    "id": 4,
+    "img": "Desktop-images/Component 1.svg",
+    "p": " Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+    "img1": "Desktop-images/Image (10).svg",
+    "h5": "Phillip Levin",
+    "h7": "CEO / Creative IT",
+    "img2": "Desktop-images/Vector.svg"
+  },
+  {
+    "id": 5,
+    "img": "Desktop-images/Component 1.svg",
+    "p": " Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+    "img1": "Desktop-images/Image (11).svg",
+    "h5": "Phillip Levin",
+    "h7": "Lincoln Lipshutz",
+    "img2": "Desktop-images/Vector.svg"
+  },
+  {
+    "id": 6,
+    "img": "Desktop-images/Component 1.svg",
+    "p": " Lorem ipsum dolor sit amet, consecte tur adipiscing elit. Ultrices blandit pelle ntesque nibh arcu elementum odio justo. Rhoncus.",
+    "img1": "Desktop-images/Image (12).svg",
+    "h5": "Craig Siphron",
+    "h7": "Lincoln Lipshutz",
+    "img2": "Desktop-images/Vector.svg"
+  }
+]

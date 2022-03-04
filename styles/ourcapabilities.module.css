@@ -1,0 +1,155 @@
+.Ourcapabilities_firstdiv_h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #ff5300;
+}
+.Ourcapabilities_firstdiv_h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.0625px;
+  line-height: 59px;
+  /* or 150% */
+
+  /* Black */
+
+  color: #373737;
+}
+.Ourcapabilities_firstdiv_p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Paragraph */
+
+  color: #7b7b7b;
+}
+.Ourcapabilities_firstdiv_h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+
+  /* Orange */
+
+  color: #ff5300;
+}
+.Ourcapabilities_firstdiv_h7_1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 19px;
+  /* identical to box height, or 150% */
+
+  /* Black */
+
+  color: #373737;
+}
+.Ourcapabilities_firstdiv_h7 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12.8px;
+  line-height: 19px;
+  /* identical to box height, or 150% */
+
+  /* Black */
+
+  color: #373737;
+}
+.Ourcapabilities_Secounddiv {
+  width: auto;
+}
+.Ourcapabilities_Secounddiv_img {
+  width: 100%;
+}
+.Ourcapabilities_row {
+  padding: 100px 0px;
+}
+.Container2 {
+  margin-bottom: 100px;
+  background: #ff5300;
+  border-radius: 10px;
+  padding: 30px;
+}
+.Container2_h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.0625px;
+  line-height: 59px;
+  /* identical to box height, or 150% */
+
+  /* Whit */
+
+  color: #ffffff;
+}
+.Container2_h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  /* Whit */
+
+  color: #ffffff;
+}
+.Container2_h5_h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* identical to box height, or 150% */
+
+  /* Whit */
+
+  color: #ffffff;
+}
+.Container2_col {
+  display: flex;
+
+  justify-content: space-evenly;
+}
+.Container2_vl {
+  border-left: 6px solid green;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 0;
+}
+@media (max-width: 992px) and (min-width: 320px) {
+  .Ourcapabilities_firstdiv_h6 {
+    text-align: center;
+  }
+  .Ourcapabilities_firstdiv_h2 {
+    font-size: auto;
+  }
+  .Ourcapabilities_Secounddiv_img {
+    width: 100%;
+  }
+  .Ourcapabilities_col {
+    align-self: center;
+  }
+}
+
+@media (max-width: 767px) and (min-width: 320px) {
+  .Container2 {
+    display: flex;
+    justify-content: space-evenly;
+  }
+}

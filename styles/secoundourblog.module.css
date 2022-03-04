@@ -1,0 +1,166 @@
+.secoundourblog_maindiv {
+  background: #fff7f4;
+}
+.secoundourblog_maindiv_h6 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+
+  color: #ff5300;
+}
+.secoundourblog_maindiv_h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.0625px;
+  line-height: 59px;
+  text-align: center;
+  color: #373737;
+}
+
+.Secoundourblog_firstdiv {
+  background: #ffffff;
+  /* Effect-1 */
+  padding: 20px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.Secoundourblog_firstdiv_img {
+  width: 310px;
+  height: 225px;
+}
+.Secoundourblog_firstdiv_h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  /* or 150% */
+
+  /* Black */
+
+  color: #373737;
+}
+.Secoundourblog_firstdiv_h7 {
+  font-size: 10.24px;
+  line-height: 19px;
+  /* identical to box height, or 188% */
+
+  text-align: center;
+
+  /* Black */
+
+  color: #373737;
+}
+.Secoundourblog_firstdiv_p {
+  margin-top: 20px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* or 150% */
+
+  /* Paragraph */
+
+  color: #7b7b7b;
+}
+.Secoundourblog_firstdiv_btn {
+  padding: 10px 15px;
+  background: #ff5300;
+  border: none;
+  border-radius: 5px;
+  color: #fff7f4;
+}
+.secoundourblog_maindiv_row {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+.Container2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  background: #ff5300;
+  /* Effect-1 */
+  padding: 50px;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+.Container2_h5 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+
+  /* Whit */
+
+  color: #ffffff;
+}
+.Container2_h1 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 39.0625px;
+  line-height: 59px;
+  /* identical to box height, or 150% */
+
+  /* Whit */
+
+  color: #ffffff;
+}
+.Container2_secounddiv {
+  align-self: center;
+  position: relative;
+}
+.Container2_secounddiv_btn {
+  border: 1px solid black;
+  position: absolute;
+  right: 4%;
+  top: 19%;
+  padding: 10px 90px;
+}
+.Container2_secounddiv_btn:hover {
+  background-color: #ff5300 !important;
+}
+.Container2_secounddiv_fromcontrol {
+  background-color: #fff7f4 !important;
+  color: #7b7b7b;
+  padding: 20px;
+}
+@media (max-width: 1200px) and (min-width: 320px) {
+  .Secoundourblog_firstdiv_img {
+    width: 100%;
+    height: 100%;
+  }
+}
+@media (max-width: 992px) and (min-width: 767px) {
+    .Container2_secounddiv_btn {
+        border: 1px solid black;
+        position: absolute;
+        right: 2.7%;
+        top: 19%;
+        padding: 10px 50px;
+      }
+}
+@media (max-width: 766px) and (min-width: 567px) {
+    .Container2_secounddiv_btn {
+        border: 1px solid black;
+        position: absolute;
+        right: 2.7%;
+        top: 13%;
+        padding: 10px 50px;
+      }
+}
+@media (max-width: 566px) and (min-width: 320px) {
+    .Container2_secounddiv_btn {
+        border: 1px solid black;
+        position: absolute;
+        right: 2.7%;
+        top: 11%;
+        padding: 10px 50px;
+      }
+}
