@@ -7,6 +7,7 @@ import DeskStudy from "./DeskStudy";
 
 const DeskCasestudy = () => {
     const [caseData , setCaseData] = useState(Casestudyjson);
+    
     const filterItem = (categItem) => {
         const updatedItems = Casestudyjson.filter((currElem) => {
             return currElem.caseType === categItem;
@@ -19,10 +20,10 @@ const DeskCasestudy = () => {
         <Container>
         <div className="casestudy-title text-center mb-5">
             <h5 className={casestyle.our_case}>Our Case Study</h5>
-            <h4 className="case_heading">Our Recent Project</h4> 
-          </div>
+            <h4 className={casestyle.case_heading   }>Our Recent Project</h4> 
+        </div>
           <Nav className={casestyle.casestudy_header} Nav variant="pills" defaultActiveKey="#home">
-            <Nav.Link href="#home" onClick={() => { setCaseData(Casestudyjson) }} className={casestyle.studylink}>All</Nav.Link>
+            <Nav.Link href="#home" onClick={() => { setCaseData(Casestudyjson) }} className={[casestyle.studylink,casestyle.active]}>All</Nav.Link>
             <Nav.Link href="#Web_Design" onClick={() => filterItem("UI/UX Design")} className={casestyle.studylink}>UI/UX Design</Nav.Link>
             <Nav.Link href="#Web Design" onClick={() => filterItem("Web Design")} className={casestyle.studylink}>Web Design</Nav.Link>
             <Nav.Link href="#App_Development" onClick={() => filterItem("App Development")} className={casestyle.studylink}>App Development</Nav.Link>
@@ -31,7 +32,6 @@ const DeskCasestudy = () => {
              </Nav>
 
             <Row className={casestyle.gutter}>
-        
             {
                         caseData.map((item) => (<DeskStudy data={item} />))
             }

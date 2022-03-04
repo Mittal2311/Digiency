@@ -21,13 +21,12 @@
     margin: 4px 10px;
 }
 .case_heading{
-    font-family: "Poppins";
+    font-family: Poppins;
     font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FF5300;
-    margin-bottom: 15px !important;
+    font-weight: 600;
+    font-size: 39.0625px;
+    line-height: 59px;
+    color: #373737;
 }
 .casestudy_header {
     display: flex;
@@ -39,7 +38,6 @@
 }
 .studyimg {
     width: 100%;
-    position: relative;
 }
 .gutter {
     --bs-gutter-x: 0 !important;
@@ -51,17 +49,47 @@
     font-size: 20px;
     line-height: 30px;
     color: #7B7B7B !important;
+    padding: 5px 27px !important;
 }
-.studylink .active{
-background-color: #ff5300 !important;
-color: white !important;
+.active {
+    background-color: #ff5300 !important;
+    color: white !important;
+    padding: 5px 27px !important;
+}
+.studylink:hover {
+    background-color: #ff5300 !important;
+    color: white !important;
 }
 .up_arrow {
-    background-color: black;
+    /* background-color: black; */
 }
-
-
-
+.overlyarrow {
+    position: absolute;
+    z-index: 1;
+    top: 11%;
+    left: 17%;
+    opacity: 0;
+    text-align: center;
+    background: rgba(255, 83, 0, 0.75);
+    padding: 81px 45px;
+}
+.casestudyhover{
+    position: relative;
+}
+.casestudyhover:hover .overlyarrow {
+    opacity: 1;
+}
+.casestudy_title {
+    display: block;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 38px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-top: 11px;
+}
 
 /* Responsive start  */
 

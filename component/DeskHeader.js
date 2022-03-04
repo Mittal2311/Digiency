@@ -18,7 +18,7 @@ const DeskHeader = () => {
               <NavbarToggle />
               <NavbarCollapse id="responsive-navbar-nav" className={styles.navbarcollapse}>
                 <Nav>
-                  <Nav.Link href="" className={styles.navlink}>Home</Nav.Link>
+                  <Nav.Link href="" className={[styles.navlink,styles.active]}>Home</Nav.Link>
                   <Nav.Link href="" className={styles.navlink}>About Us</Nav.Link>
                   <Nav.Link href="" className={styles.navlink }>Services</Nav.Link>
                   <Nav.Link href="" className={styles.navlink }>Portfolio</Nav.Link>

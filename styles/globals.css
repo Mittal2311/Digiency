@@ -352,7 +352,7 @@ img.fb {
   font-size: 20px;
   color: #7B7B7B !important;
 }
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+.ourwork_section .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
   background-color: transparent !important;
   color: #ff5300 !important;
 }
@@ -568,10 +568,10 @@ img.fb {
 .blog_img {
   display: inline;
 }
-.blog_section .slick-prev, .slick-next {
+/* .blog_section .slick-prev, .slick-next {
   left: 0;
   display: none !important;
-}
+} */
 /* Blog section css end  */
 
 /* Contactus section css start  */

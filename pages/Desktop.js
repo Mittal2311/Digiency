@@ -6,6 +6,10 @@ import DeskBanner from "../component/DeskBanner";
 import DeskOurservice from "../component/DeskOurservice";
 import DeskAbout from "../component/DeskAbout";
 import DeskCasestudy from "../component/DeskCasestudy";
+import DeskTestimonial from "../component/DeskTestimonial";
+import DeskCapabilites from "../component/DeskCapabiltes";
+import DeskBlog from "../component/DeskBlog";
+import DeskNewsletter from "../component/DeskNewsletter";
 
 const Desktop = () =>{
     return(
@@ -26,9 +30,28 @@ const Desktop = () =>{
              <DeskAbout/>
              {/* About section end  */}
              
-               {/* Casestudy section start  */}
+            {/* Casestudy section start  */}
                <DeskCasestudy/>
              {/* Casestudy section end  */}
+
+            {/* Testimonial section start  */}
+
+            <DeskTestimonial />
+            {/* Testimonial section start  */}
+
+            {/* Our Capabilites section start  */}
+            <DeskCapabilites />
+
+            {/* Our Capabilites section start  */}
+
+            {/* OurBlog section start  */}
+            <DeskBlog />
+            {/* OurBlog section start  */}
+
+            {/* Newsletter section start  */}
+
+            <DeskNewsletter />
+             {/* Newsletter section start  */}
 
             {/* Footeer section satrt  */}
                 <DeskFooter/>

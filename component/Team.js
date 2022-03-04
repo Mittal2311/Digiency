@@ -47,6 +47,7 @@ const Team = (props) => {
     <>
       <Row className="myh3">
         <Slider {...settings}>
+        
         {teamData.map((item) => (
           <Col xl={4} lg={4} md={4}>
             <div className="slider_cont">
