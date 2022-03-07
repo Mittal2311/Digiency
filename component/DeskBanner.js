@@ -1,7 +1,8 @@
 import React from "react";
 import { Container, Row, Col ,Image } from "react-bootstrap";
 import Bannerstyle from "../styles/Banner.module.css";
-
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 const DeskBanner = () => {
   return (
     <>
@@ -17,8 +18,9 @@ const DeskBanner = () => {
               xs={{ span: 12, order: 2 }}
               className={Bannerstyle.banner_part}
             >
-              <h4 className={Bannerstyle.banner_heading }>
-                Choose What Matters <br /> To Your Business & Your <br />{" "}
+             <AnimationOnScroll animateIn="animate__fadeInDown"> 
+              <h4 className={Bannerstyle.banner_heading} bounceIn>
+                Choose What Matters <br /> To Your Business & Your <br/>{" "}
                 Customers.
               </h4>
               <p className={Bannerstyle.banner_parg}>
@@ -28,9 +30,12 @@ const DeskBanner = () => {
                 Rhoncus sed.
               </p>
               <button className="banner_btn">Get Start Now</button>
+              </AnimationOnScroll>
             </Col>
             <Col xl={{span:6 , order:1}} lg={{span:6 , order:1}} md={{span:6 , order:1}} sm={{span:12, order:1}} xs={{span:12 , order:1}} className="banner_img">
+            <AnimationOnScroll animateIn="animate__fadeInUp">
             <Image src="/bannerimg2.png" className={Bannerstyle.banner_girl}/>
+            </AnimationOnScroll>
             </Col>
           </Row>
         </Container>

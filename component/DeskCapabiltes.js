@@ -3,6 +3,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import Image from "next/image";
 import pana from "../public/images/pana.png";
 import styleca from "../styles/Capabilites.module.css";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 const DeskCapabilites = () => {
   return (
@@ -17,6 +19,7 @@ const DeskCapabilites = () => {
               sm={{ span: 12, order: 1 }}
               xs={{ span: 12, order: 1 }}
             >
+             <AnimationOnScroll animateIn="animate__fadeInDown">
               <h6 className={styleca.our_capability}>Our Capabilities</h6>
               <h2 className={styleca.capability_heading}>
                 Forward Thinking Team Of <br />
@@ -34,8 +37,8 @@ const DeskCapabilites = () => {
                   xl={3}
                   lg={3}
                   md={3}
-                  sm={3}
-                  xs={3}
+                  sm={12}
+                  xs={12}
                   className={styleca.card_main}
                 >
                   <div className={styleca.card_per}>
@@ -47,8 +50,8 @@ const DeskCapabilites = () => {
                   xl={3}
                   lg={3}
                   md={3}
-                  sm={3}
-                  xs={3}
+                  sm={12}
+                  xs={12}
                   className={styleca.card_main}
                 >
                   <div className={styleca.card_per}>
@@ -60,8 +63,8 @@ const DeskCapabilites = () => {
                   xl={3}
                   lg={3}
                   md={3}
-                  sm={3}
-                  xs={3}
+                  sm={12}
+                  xs={12}
                   className={styleca.card_main}
                 >
                   <div className={styleca.card_per}>
@@ -73,8 +76,8 @@ const DeskCapabilites = () => {
                   xl={3}
                   lg={3}
                   md={3}
-                  sm={3}
-                  xs={3}
+                  sm={12}
+                  xs={12}
                   className={styleca.card_main}
                 >
                   <div className={styleca.card_per}>
@@ -83,6 +86,7 @@ const DeskCapabilites = () => {
                   </div>
                 </Col>
               </Row>
+              </AnimationOnScroll>
             </Col>
             <Col
               xl={{ span: 6, order: 1 }}
@@ -92,39 +96,48 @@ const DeskCapabilites = () => {
               xs={{ span: 12, order: 1 }}
               className={styleca.capab_img}
             >
+              <AnimationOnScroll animateIn="animate__fadeInUp"> 
               <Image src={pana} />
+              </AnimationOnScroll>
             </Col>
           </Row>
-
           <div className={styleca.our_results}>
             <Row>
               <Col className={styleca.capa_orange} xl={3} lg={3} md={3} sm={6} xs={6}>
+              <AnimationOnScroll animateIn="animate__fadeInLeft"> 
                 <div>
                   <img src="man.png" />
                   <h4 className={styleca.count_number}>120</h4>
                   <p className={styleca.count_title}>Top Experts</p>
                 </div>
+                </AnimationOnScroll>
               </Col>
               <Col className={styleca.capa_orange} xl={3} lg={3} md={3} sm={6} xs={6}>
+              <AnimationOnScroll animateIn="animate__fadeInLeft"> 
                 <div>
                   <img src="man.png" />
                   <h4 className={styleca.count_number}>500</h4>
                   <p className={styleca.count_title}>Strategies</p>
                 </div>
+                </AnimationOnScroll>
               </Col>
               <Col className={styleca.capa_orange} xl={3} lg={3} md={3} sm={6} xs={6}>
+              <AnimationOnScroll animateIn="animate__fadeInRight"> 
                 <div>
                   <img src="man.png" />
                   <h4 className={styleca.count_number}>347</h4>
                   <p className={styleca.count_title}>Great Results</p>
                 </div>
+                </AnimationOnScroll>
               </Col>
               <Col className={styleca.capa_orange} xl={3} lg={3} md={3} sm={6} xs={6}>
+              <AnimationOnScroll animateIn="animate__fadeInRight"> 
                 <div>
                   <img src="man.png" />
                   <h4 className={styleca.count_number}>120</h4>
                   <p className={styleca.count_title}>Hight Rankings</p>
                 </div>
+                </AnimationOnScroll>
               </Col>
             </Row>
           </div>

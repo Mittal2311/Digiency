@@ -827,9 +827,17 @@ input.form-control {
 
 /* footer section css end  */
 
+.banner_btn:hover {
+  background-color: transparent;
+  border: 3px solid #ff5300;
+  color: #ff5300;
+}
+.pragnesh .active{
+  background-color: #ff5300 !important;
+  color: white !important;
+  padding: 5px 27px !important;
+}
 
-
-  
 
 /* Responsive css start  */
 
@@ -889,6 +897,7 @@ input.form-control {
   .blog_info img{width: 60px; height: 60px;}
   .header_icon{margin-right: 64%;}
 }
+
 @media only screen and (max-width: 768px) {
   .navbar-brand{
     margin-right: 0px !important;

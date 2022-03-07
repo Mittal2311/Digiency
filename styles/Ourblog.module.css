@@ -35,6 +35,9 @@
     border-radius: 10px;
     padding: 15px;
 }
+.ourblog_cont:hover{
+    box-shadow: 0 5px 15px rgb(0 0 0 / 30%);
+}
 .ourblog_img {
     width: 100%;
 }
@@ -65,7 +68,11 @@
     color: #FFFFFF;
     padding: 10px 10px;
 }
-
+.ourblog_btn:hover{
+    background-color: transparent;
+    border: 3px solid #ff5300;
+    color: #ff5300;
+}
 /* Responsive start  */
 @media only screen and (max-width: 1199px) {
 }

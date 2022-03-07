@@ -5,7 +5,6 @@
     display: inline-block;
     width: 100%;
 }
-
 .newsletter_cont {
     background: #FF5300;
     box-shadow: 0px 1px 4px rgb(0 0 0 / 10%);
@@ -22,7 +21,7 @@
     margin: 0 !important;
     color: #FFFFFF;
 }
-.news_subscribe:after{
+.news_subscribe:after {
     content: '';
     width: 40px;
     display: inline-block;
@@ -69,6 +68,7 @@
 @media only screen and (max-width: 767px) {
     .newsletter_cont{display: block !important;} 
     .newsletter_left.col-xl-5.col-lg-5.col-md-5.col-sm-5.col-5{width: 100% !important; display: contents;}
+    .news_heading{font-size: 24.0625px; line-height: 18px;}
 }
 @media only screen and (max-width: 567px) {
 }

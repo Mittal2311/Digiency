@@ -36,6 +36,11 @@
     white-space: nowrap;
     flex-wrap: nowrap;
 }
+/* .casestudy_header a.nav-link:hover {
+    background-color: orange;
+    color: white !important;
+    border-radius: 10px;
+} */
 .studyimg {
     width: 100%;
 }
@@ -51,22 +56,25 @@
     color: #7B7B7B !important;
     padding: 5px 27px !important;
 }
-.active {
+.pragnesh .active{
     background-color: #ff5300 !important;
     color: white !important;
     padding: 5px 27px !important;
 }
+
+/* .active {
+    background-color: #ff5300 !important;
+    color: white !important;
+    padding: 5px 27px !important;
+} */
 .studylink:hover {
     background-color: #ff5300 !important;
     color: white !important;
 }
-.up_arrow {
-    /* background-color: black; */
-}
 .overlyarrow {
     position: absolute;
-    z-index: 1;
-    top: 11%;
+    /* z-index: 1; */
+    top: 13%;
     left: 17%;
     opacity: 0;
     text-align: center;
@@ -90,7 +98,6 @@
     text-align: center;
     margin-top: 11px;
 }
-
 /* Responsive start  */
 
 @media only screen and (max-width: 1199px) {

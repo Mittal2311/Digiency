@@ -7,6 +7,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import Testimonailjson from "../json/testimonail.json";
+import { AnimationOnScroll } from 'react-animation-on-scroll';
+import "animate.css/animate.min.css";
 
 
 const DeskTestimonial = () => {
@@ -51,9 +53,11 @@ const DeskTestimonial = () => {
       <div className={teststyle.testimonial_section}>
         <div className="test-title text-center mb-5">
           <h5 className={teststyle.our_test}>Our Testimonial</h5>
+          <AnimationOnScroll animateIn="animate__bounce">
           <h4 className={teststyle.testimonail_heading}>
             What Our Client Saying
           </h4>
+          </AnimationOnScroll>
         </div>
         <Container>
           <Row className={teststyle.myh3}>
@@ -61,6 +65,7 @@ const DeskTestimonial = () => {
 
           {testData.map((item) => (
             <Col xl={4} lg={4} md={4}>
+            <AnimationOnScroll animateIn="animate__fadeInUp"> 
               <div className={teststyle.test_cont }>
                 <img src={item.starimg} />
                 <p className={teststyle.test_cont_parg }>
@@ -77,6 +82,7 @@ const DeskTestimonial = () => {
                   <img src={item.quoteimg} className={teststyle.quoteimg} />
                 </div>
               </div>
+              </AnimationOnScroll>
             </Col>
             ))} 
             </Slider>

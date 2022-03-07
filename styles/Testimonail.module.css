@@ -28,6 +28,7 @@
     font-size: 39.0625px;
     line-height: 59px;
     color: #373737;
+    display: inline-block;
 }
 .ourclient_cont {
     display: flex;
