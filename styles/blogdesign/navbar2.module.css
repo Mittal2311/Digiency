@@ -1,0 +1,40 @@
+.Navbar2_navlink1 {
+  margin-left: 60px;
+}
+.Navbar2_navlink {
+  font-family: Work Sans;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 20px !important;
+  line-height: 123.6% !important;
+
+  margin: 0px 8px;
+  color: #373737 !important;
+}
+.Navbar2_navlink:hover {
+  background-color: #ff5300 !important;
+  color: aliceblue !important;
+}
+.Navbar2_container {
+  position: relative;
+}
+.pic2 {
+  display: none;
+}
+@media (max-width: 992px) and (min-width: 320px) {
+  .Navbar2_navlink_img {
+    position: absolute;
+    left: 60%;
+    top: 20%;
+  }
+
+  .Navbar2_navlink1 {
+    margin-left: 0px;
+  }
+  .pic2 {
+    display: block;
+  }
+  .pic {
+    display: none;
+  }
+}

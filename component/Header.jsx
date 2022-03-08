@@ -18,7 +18,7 @@ const Header = () => {
           <Navbar.Toggle aria-controls="navbarScroll" />
           <Navbar.Collapse className={style.Collapse} id="navbarScroll">
             <Nav id={style.Nav} className="my-2 my-lg-0" navbarScroll>
-              <NavLink href="#action1" className={style.navlink}>
+              <NavLink href="Blog" className={style.navlink}>
                 Home
               </NavLink>
               <NavLink href="#action2" className={style.navlink}>

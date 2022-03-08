@@ -15,6 +15,8 @@ const Ourtestimonial = () => {
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
+    nextArrow:<div style={{ backgroundColo: "red", height: "20px", width: "20px" }} />,
+    prevArrow:<div style={{ backgroundColo: "red", height: "20px", width: "20px" }} />,
     responsive: [
       {
         breakpoint: 1200,
@@ -49,7 +51,7 @@ const Ourtestimonial = () => {
         <h1 className={Style.Ourtestimonial_h1}>What Our Client Saying</h1>
         <Container>
           <Row className={Style.Ourtestimonial_row}>
-            <Slider {...settings}>
+            <Slider className={Style.sliderH} {...settings}>
               {data.map((i) => {
                 return (
                   <Col
@@ -60,8 +62,13 @@ const Ourtestimonial = () => {
                   >
                     <div className={Style.Ourtestimonial_cardmain_div}>
                       <div className="Ourtestimonial_cardfirst_div">
-                        <Image src={i.img} className={Style.Ourtestimonial_cardmain_div_img} />
-                        <p className={Style.Ourtestimonial_cardmain_div_p}>{i.p}</p>
+                        <Image
+                          src={i.img}
+                          className={Style.Ourtestimonial_cardmain_div_img}
+                        />
+                        <p className={Style.Ourtestimonial_cardmain_div_p}>
+                          {i.p}
+                        </p>
                       </div>
                       <div className={Style.Ourtestimonial_cardsecound_div}>
                         <Image src={i.img1} />
@@ -70,10 +77,27 @@ const Ourtestimonial = () => {
                             Style.Ourtestimonial_cardsecound_div_heading
                           }
                         >
-                          <h5 className={Style.Ourtestimonial_cardsecound_div_heading_h5}>{i.h5}</h5>
-                          <h7 className={Style.Ourtestimonial_cardsecound_div_heading_h7}>{i.h7}</h7>
+                          <h5
+                            className={
+                              Style.Ourtestimonial_cardsecound_div_heading_h5
+                            }
+                          >
+                            {i.h5}
+                          </h5>
+                          <h7
+                            className={
+                              Style.Ourtestimonial_cardsecound_div_heading_h7
+                            }
+                          >
+                            {i.h7}
+                          </h7>
                         </div>
-                        <Image src={i.img2} className={Style.Ourtestimonial_cardsecound_heading_img}/>
+                        <Image
+                          src={i.img2}
+                          className={
+                            Style.Ourtestimonial_cardsecound_heading_img
+                          }
+                        />
                       </div>
                     </div>
                   </Col>

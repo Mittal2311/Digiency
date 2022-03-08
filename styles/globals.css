@@ -984,7 +984,7 @@ input[type="text"] {
 
 textarea.form-control {
   height: 163px;
-  background-color: #373737 !important;
+  background-color: #373737 ;
 }
 
 input[type="number"] {

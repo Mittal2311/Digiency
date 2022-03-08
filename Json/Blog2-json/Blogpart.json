@@ -1,0 +1,22 @@
+[
+  
+  {
+    "id": 2,
+    "img": "Blog-img/Image (11).svg",
+    "h6": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Ultrices facilisi sed tincidunt mauris duis pulvinar convalliseu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.",
+    "btn": "Read More"
+  },
+  {
+    "id": 3,
+    "img": "Blog-img/Image (8).svg",
+    "img1": "blog-img/timer.svg",
+    "p": "January 25, 2021",
+    "img2": "blog-img/person.svg",
+    "p1": "Cristofer Westervelt",
+    "img3": "blog-img/message-circle.svg",
+    "p2": "10 Comment",
+    "h3": "Memphis Design: the defining look of the 1980s",
+    "h6": " Lorem ipsum dolor sit amet, consectetur adipiscing elit.  Ultrices facilisi sed tincidunt mauris duis pulvinar convalliseu. Lobortis scelerisque aliquam massa arcu, eget. Sociis odio quis eget lacus. Dolor at enim viverra laoreet molestie amet cursus et. Sed lacus, viverra lacinia scelerisque cras aliquam blandit.",
+    "btn": "Read More"
+  }
+]

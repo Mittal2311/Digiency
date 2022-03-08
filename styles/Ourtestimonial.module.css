@@ -70,7 +70,15 @@
 .Ourtestimonial_cardsecound_heading_img{
     width: auto;
 }
-
+/* .sliderH {
+  font-family: 'slick';
+  font-size: 30px !important;
+  line-height: 1;
+  opacity: .75;
+  color: red;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
 @media (max-width: 1200px) and (min-width: 320px) {
   .Ourtestimonial_cardmain_div {
     /* margin: 0px 50px; */

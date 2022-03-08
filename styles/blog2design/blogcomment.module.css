@@ -1,0 +1,134 @@
+.comment_filter_maindiv{
+    margin: 30px 0px;
+}
+.comment_filter_maindiv_heddiv {
+  display: flex !important;
+  justify-content: space-between;
+}
+.comment_filter_maindiv_heddiv_h3 {
+    margin-top: 10px;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 123.6%;
+  color: #373737;
+}
+.comment_filter_maindiv_heddiv_h3:hover{
+ color: aliceblue;
+  background: #ff5300;
+}
+.comment_filter_maindiv_heddiv_hr {
+  margin-top: -2px;
+  border: 1.5px solid #7b7b7b;
+  margin-bottom: 10px;
+}
+.comment_filter_maindiv_secounddiv {
+  display: flex;
+  justify-content: space-between;
+}
+.comment_filter_maindiv_secounddiv_img1 {
+  display: flex;
+}
+.comment_filter_maindiv_secounddiv_img {
+  align-self: center;
+  width: 20px;
+  height: 18px;
+}
+.comment_filter_maindiv_secounddiv_h3 {
+  margin-top: 7px;
+  align-self: center;
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  color: #7b7b7b;
+}
+.Form {
+  background-color: aliceblue !important;
+  margin: 20px 0px;
+}
+.comment_filter_maindiv_thirddiv {
+  margin: 20px 0px;
+  width: 100%;
+  height: 80px;
+  border: 1.5px solid #7b7b7b;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.comment_filter_maindiv_fourthddiv {
+  display: flex;
+}
+.comment_filter_maindiv_fourthddiv_img {
+  align-self: flex-start;
+}
+.comment_filter_maindiv_fourthddiv_div {
+  margin: 0px 10px;
+}
+.comment_filter_maindiv_fourthddiv_div_h3 {
+  font-family: Inter;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 123.6%;
+  /* identical to box height, or 30px */
+
+  text-transform: capitalize;
+
+  /* Orange */
+
+  color: #ff5300;
+}
+.comment_filter_maindiv_fourthddiv_div_p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  /* or 24px */
+
+  /* Gray ( Paragraph ) */
+
+  color: #7b7b7b;
+}
+.comment_filter_maindiv_fifthddiv_div {
+  margin-left: 10%;
+  display: flex;
+}
+.comment_filter_maindiv_fifthddiv_div_h3 {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 123.6%;
+  /* identical to box height, or 25px */
+
+  /* Orange */
+
+  color: #ff5300;
+}
+.comment_filter_maindiv_fifthddiv_div_p {
+  font-family: Work Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150.6%;
+  /* or 24px */
+
+  /* Gray ( Paragraph ) */
+
+  color: #7b7b7b;
+}
+.comment_filter_maindiv_fifthddiv_div_div {
+  margin-left: 20px;
+}
+.comment_filter_maindiv_fifthddiv_div_img {
+  align-self: flex-start;
+}
+
+@media (max-width: 767px) and (min-width:320px){
+    .comment_filter_maindiv_heddiv_h3{
+        font-size: 18px
+    }
+};
