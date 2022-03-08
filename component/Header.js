@@ -26,7 +26,7 @@ const Header = () => {
                   <Nav.Link href="">About Us</Nav.Link>
                   <Nav.Link href="">Our Work</Nav.Link>
                   <Nav.Link href="">Clients</Nav.Link>
-                  <Nav.Link href="Blog">Our Blog</Nav.Link>
+                  <Nav.Link href="BlogDetail">Our Blog</Nav.Link>
                   <Nav.Link href="">Contact Us</Nav.Link>
                 </Nav>
               </NavbarCollapse>

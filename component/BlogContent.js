@@ -21,7 +21,6 @@ const BlogContent = () => {
         <Container>
           <Row>
             <Col xl={8} lg={8} md={6}>
-           
               {contentData.map((item) => (
                 <>
                   <Col
@@ -81,7 +80,6 @@ const BlogContent = () => {
             </Col>
 
             {/* Search bar start */}
-           
             <Col xl={4} lg={4} md={6}>
             <AnimationOnScroll animateIn=" animate__bounce"> 
               <div className={contentstyle.searchinput}>

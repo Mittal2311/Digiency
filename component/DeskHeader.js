@@ -23,7 +23,7 @@ const DeskHeader = () => {
                   <Nav.Link href="" className={styles.navlink}>About Us</Nav.Link>
                   <Nav.Link href="" className={styles.navlink }>Services</Nav.Link>
                   <Nav.Link href="" className={styles.navlink }>Portfolio</Nav.Link>
-                  <Nav.Link href="" className={styles.navlink }>Blog</Nav.Link>
+                  <Nav.Link href="Blog" className={styles.navlink }>Blog</Nav.Link>
                   <Nav.Link href="" className={styles.navlink }>Contact Us</Nav.Link>
                   <button className={styles.header_btn}>Let’s Talk</button>
                 </Nav>
