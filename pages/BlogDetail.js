@@ -4,6 +4,7 @@ import Header from "../component/Header";
 import BlogDetailBanner from "../component/BlogDetailBanner";
 import BlogDetailContent from "../component/BlogDetailContent";
 import Footer from "../component/Footer";
+import Blogcomment from "../component/BlogComment";
 
 const BlogDetail = () => {
     return(
@@ -13,6 +14,8 @@ const BlogDetail = () => {
         <BlogDetailBanner />
 
         <BlogDetailContent />
+
+        <Blogcomment />
 
         <Footer/>
         </>

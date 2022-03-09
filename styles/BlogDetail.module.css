@@ -6,9 +6,9 @@
     font-size: 16px;
     line-height: 150.6%;
     color: #7B7B7B;
-    max-width: 348px;
     display: inline-block;
-    /* padding: 20px 20px; */
+    padding: 0px 25px;
+    text-align: justify;
 }
 .para_t {
     font-family: Work Sans;
@@ -56,4 +56,11 @@
 }
 .blogdetail_img {
     width: 100%;
+}
+.blogdetail_pancil {
+    display: flex;
+}
+
+@media only screen and (max-width: 767px) {
+    .blogdetail_pancil{display: inline-block;}
 }

@@ -46,6 +46,7 @@
     color: #7B7B7B;
     max-width: 748px;
     display: inline-block;
+    padding: 0 24px;
 }
 .readmore_btn {
     border: 0;
