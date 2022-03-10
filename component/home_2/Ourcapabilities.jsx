@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
-import Style from "../styles/ourcapabilities.module.css";
+import Style from "../../styles/ourcapabilities.module.css";
 
-const Ourcapabilities = () => {
+export const Ourcapabilities = () => {
   return (
     <>
       <div className="Ourcapabilities">
@@ -139,5 +139,3 @@ const Ourcapabilities = () => {
     </>
   );
 };
-
-export default Ourcapabilities;

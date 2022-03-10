@@ -48,10 +48,18 @@
   height: 100%;
 }
 
-@media (max-width: 767px) and (min-width: 567px) {
+@media  (max-width:992px) and (min-width:767px){
+  .SecoundAboutus_firstdiv_h2{
+    font-size: 35px;
+  }
+}
+ @media (max-width: 767px) and (min-width: 567px) {
   .SecoundAboutus_firstdiv_h6 {
     display: flex;
     justify-content: center;
+  }
+  .SecoundAboutus_firstdiv_h2{
+    font-size: 30px;
   }
 }
 @media (max-width: 566px) and (min-width: 320px) {
@@ -60,7 +68,7 @@
     justify-content: center;
   }
   .SecoundAboutus_firstdiv_h2{
-      font-size: 25px;
+      font-size: 23px;
       line-height: 48px;
   }
 }

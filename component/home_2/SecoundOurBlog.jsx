@@ -8,10 +8,10 @@ import {
   FormControl,
   Button,
 } from "react-bootstrap";
-import Style from "../styles/secoundourblog.module.css";
-import secoundourblogjson from "../Json/secoundourblog.json";
+import Style from "../../styles/secoundourblog.module.css";
+import secoundourblogjson from "../../Json/secoundourblog.json";
 
-const Secoundourblog = () => {
+export const Secoundourblog = () => {
   const [data] = useState(secoundourblogjson);
   return (
     <>
@@ -61,12 +61,17 @@ const Secoundourblog = () => {
           >
             <Form className="d-flex">
               <FormControl
-              className={Style.Container2_secounddiv_fromcontrol}
+                className={Style.Container2_secounddiv_fromcontrol}
                 type="Search"
                 placeholder="Enter your email"
                 aria-label="Search"
               />
-              <Button variant="outline-success" className={Style.Container2_secounddiv_btn}>Search</Button>
+              <Button
+                variant="outline-success"
+                className={Style.Container2_secounddiv_btn}
+              >
+                Search
+              </Button>
             </Form>
           </Col>
         </Row>
@@ -74,4 +79,3 @@ const Secoundourblog = () => {
     </>
   );
 };
-export default Secoundourblog;

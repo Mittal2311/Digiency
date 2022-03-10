@@ -137,7 +137,8 @@
     text-align: center;
   }
   .Ourcapabilities_firstdiv_h2 {
-    font-size: auto;
+    font-size: 30px;
+    line-height: 40px;
   }
   .Ourcapabilities_Secounddiv_img {
     width: 100%;

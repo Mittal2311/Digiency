@@ -217,7 +217,7 @@
   box-sizing: border-box;
 }
 .secoundcontainer_div_num:hover {
- background: #ff5300;
+  background: #ff5300;
 }
 
 .secoundcontainer_div_num_h3 {
@@ -232,9 +232,7 @@
   margin-top: 13px;
 }
 .secoundcontainer_div_num_h3:hover {
-  
   color: #fff7f4;
- 
 }
 @media (max-width: 1200px) and (min-width: 992px) {
   .Blogpart_imgmain_div_p {
@@ -262,6 +260,10 @@
   }
 }
 @media (max-width: 767px) and (min-width: 567px) {
+  .blogpart_secounddiv_img {
+    top: 18%;
+    right: 1%;
+  }
   .Blogpart_h3 {
     font-size: 28px;
   }
@@ -274,8 +276,12 @@
   }
 }
 @media (max-width: 567px) and (min-width: 320px) {
+  .blogpart_secounddiv_img {
+    top: 14%;
+    right: 1%;
+  }
   .Blogpart_h3 {
-    font-size: 25px;
+    font-size: 19px;
   }
   .Blogpart_imgmain_div_p {
     font-size: 10px;

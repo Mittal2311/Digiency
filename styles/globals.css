@@ -984,7 +984,7 @@ input[type="text"] {
 
 textarea.form-control {
   height: 163px;
-  background-color: #373737 ;
+  background-color: #373737;
 }
 
 input[type="number"] {
@@ -1035,7 +1035,7 @@ input[type="email"] {
 }
 @media (max-width: 1200px) and (min-width: 992px) {
   .nav-item {
-   padding: 0 !important;
+    padding: 0 !important;
   }
   /* footer */
   .col-lg-3 {
@@ -1108,7 +1108,7 @@ input[type="email"] {
     color: #e9ecef !important;
     border-color: #f8f9fa !important;
   }
-  .navbar-nav{
+  .navbar-nav {
     margin-left: auto !important;
   }
   .navbar {
@@ -1125,7 +1125,7 @@ input[type="email"] {
   .third_div {
     margin: 0px 0px;
   }
-  .fourth_div{
+  .fourth_div {
     margin-left: 38px;
   }
 
@@ -1223,7 +1223,7 @@ input[type="email"] {
     width: 30px !important;
     height: 30px;
   }
-  
+
   .fifhtcomp_h2div-1 {
     opacity: 0;
     position: absolute;
@@ -1359,6 +1359,10 @@ input[type="email"] {
   }
 }
 @media (max-width: 767px) and (min-width: 567px) {
+  .fifthcomp h2,
+  .thirdcomp h2 {
+    font-size: 30px;
+  }
   .navbar-light .navbar-toggler {
     color: #e9ecef !important;
     border-color: #f8f9fa !important;
@@ -1508,7 +1512,7 @@ input[type="email"] {
   .fourthcom_firstDiv {
     margin-bottom: 0px;
   }
-  .fourthcomp h3{
+  .fourthcomp h3 {
     font-size: 17px;
   }
   .fourthcomp_social-icon {
@@ -1577,7 +1581,7 @@ input[type="email"] {
     width: 25px !important;
     height: 25px;
   }
-  
+
   .fifhtcomp_h2div-1 {
     opacity: 0;
     position: absolute;
@@ -1813,6 +1817,10 @@ input[type="email"] {
 }
 
 @media (max-width: 566px) and (min-width: 350px) {
+  .compsix h2,
+  .thirdcomp h2 {
+    font-size: 25px;
+  }
   .navbar-light .navbar-toggler {
     color: #e9ecef !important;
     border-color: #f8f9fa !important;
@@ -1968,7 +1976,7 @@ input[type="email"] {
   }
   /* fifthcomp section */
   .fifthcomp h2 {
-    font-size: 33.06px;
+    font-size: 25.06px;
   }
   /* Clients section */
   .compsix_firstdiv {
@@ -2121,6 +2129,10 @@ input[type="email"] {
 }
 
 @media (max-width: 349px) and (min-width: 230px) {
+  .fifthcomp h2,
+  .thirdcomp h2 {
+    font-size: 19.06px;
+  }
   /* navbar */
   .nav_last_logo {
     display: none;
@@ -2299,7 +2311,7 @@ input[type="email"] {
   .firstdiv_h4 {
     font-size: 15px;
   }
-  .secound_h6{
+  .secound_h6 {
     font-size: 12px;
   }
   .contactus_div2-card {

@@ -1,44 +1,35 @@
-import Banner2 from "../component/Benner2";
-import Header from "../component/Header";
-import Ourcapabilities from "../component/Ourcapabilities";
-import Ourcasestudy from "../component/Ourcasestudy";
-import Ourservice from "../component/OurService";
-import Ourtestimonial from "../component/Ourtestimonial";
-import SecoundAboutus from "../component/SecoundAboutus";
-import Secoundourblog from "../component/SecoundOurBlog";
-import secoundourblog from "../component/SecoundOurBlog";
-import Secoundfooter from "../component/Secounfooter";
+import {
+  Header,
+  Banner2,
+  Ourcapabilities,
+  Ourcasestudy,
+  Ourservice,
+  Ourtestimonial,
+  SecoundAboutus,
+  Secoundourblog,
+  Secoundfooter,
+} from "../component";
 
 export default function Desktop() {
   return (
     <>
-      <div>
-        <Header />
-      </div>
-      <div>
-        <Banner2 />
-      </div>
-      <div>
-        <Ourservice />
-      </div>
-      <div>
-        <SecoundAboutus />
-      </div>
-      <div>
-        <Ourcasestudy />
-      </div>
-      <div>
-        <Ourtestimonial />
-      </div>
-      <div>
-        <Ourcapabilities />
-      </div>
-      <div>
-        <Secoundourblog /> 
-      </div>
-      <div>
-        <Secoundfooter />
-      </div>
+      <Header />
+
+      <Banner2 />
+
+      <Ourservice />
+
+      <SecoundAboutus />
+
+      <Ourcasestudy />
+
+      <Ourtestimonial />
+
+      <Ourcapabilities />
+
+      <Secoundourblog />
+
+      <Secoundfooter />
     </>
   );
 }

@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import Style from "../styles/Ourcasestudy.module.css";
+import Style from "../../styles/Ourcasestudy.module.css";
 import { Col, Container, NavLink, Row, Image, Nav } from "react-bootstrap";
-import Ourcasestudyjson from "../Json/Ourcasestudy.json";
+import Ourcasestudyjson from "../../Json/Ourcasestudy.json";
 
-const Ourcasestudy = () => {
+export const Ourcasestudy = () => {
   const [data, setData] = useState(Ourcasestudyjson);
 
   const filter = (categItem) => {
@@ -93,11 +93,11 @@ const Ourcasestudy = () => {
                   <div className={Style.Ourcasestudy_img_div}>
                     <Image src={i.img} className={Style.Ourcasestudy_div_img} />
                     <div className={Style.Ourcasestudy_hover_div}>
-                    <Image
-                      src={i.img1}
-                      className={Style.Ourcasestudy_div_img2}
-                    />
-                    <h4 className={Style.Ourcasestudy_div_h4}>{i.h4}</h4>
+                      <Image
+                        src={i.img1}
+                        className={Style.Ourcasestudy_div_img2}
+                      />
+                      <h4 className={Style.Ourcasestudy_div_h4}>{i.h4}</h4>
                     </div>
                   </div>
                 </Col>
@@ -109,5 +109,3 @@ const Ourcasestudy = () => {
     </>
   );
 };
-
-export default Ourcasestudy;

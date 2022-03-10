@@ -70,4 +70,4 @@ const Carousel = ({ children }) => {
   );
 };
 
-export default Carousel;
+// export default Carousel;

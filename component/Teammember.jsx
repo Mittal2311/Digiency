@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const TeammemberComp = () => {
+export const Teammember = () => {
   const [mainData] = useState(datajson);
 
   var settings = {
@@ -43,52 +43,36 @@ const TeammemberComp = () => {
     ],
   };
   return (
-    <>
-      <div className="fourthcomp">
-        <Container>
-          <h5>Team Member</h5>
-          <h2>
-            We Have <br /> <span>Some Awesome</span> People
-          </h2>
-          <Row>
-            <Slider {...settings}>
-              {mainData.map((i) => {
-                return (
-                  <Col xl={3} lg={3} md={6} sm={6} xs={12}>
-                    <Card className="fourthcomp_card fourthcom_firstDiv">
-                      <Card.Body className="fourthcomp_body">
-                        <Image src={i.img} className="fourthcom_img" />
-                        <Image
-                          src={i.img2}
-                          className="fourthcomp_social-icon"
-                        />
-                        <Image
-                          src={i.img3}
-                          className="fourthcomp_social-icon1"
-                        />
-                        <Image
-                          src={i.img4}
-                          className="fourthcomp_social-icon2"
-                        />
-                        <Image
-                          src={i.img5}
-                          className="fourthcomp_social-icon3"
-                        />
-                        <h3>{i.cardheading}</h3>
-                        <Card.Text className="fourthcomp_text">
-                          {i.cardtext}
-                        </Card.Text>
-                      </Card.Body>
-                    </Card>
-                  </Col>
-                );
-              })}
-            </Slider>
-          </Row>
-        </Container>
-      </div>
-    </>
+    <div className="fourthcomp">
+      <Container>
+        <h5>Team Member</h5>
+        <h2>
+          We Have <br /> <span>Some Awesome</span> People
+        </h2>
+        <Row>
+          <Slider {...settings}>
+            {mainData.map((i) => {
+              return (
+                <Col xl={3} lg={3} md={6} sm={6} xs={12}>
+                  <Card className="fourthcomp_card fourthcom_firstDiv">
+                    <Card.Body className="fourthcomp_body">
+                      <Image src={i.img} className="fourthcom_img" />
+                      <Image src={i.img2} className="fourthcomp_social-icon" />
+                      <Image src={i.img3} className="fourthcomp_social-icon1" />
+                      <Image src={i.img4} className="fourthcomp_social-icon2" />
+                      <Image src={i.img5} className="fourthcomp_social-icon3" />
+                      <h3>{i.cardheading}</h3>
+                      <Card.Text className="fourthcomp_text">
+                        {i.cardtext}
+                      </Card.Text>
+                    </Card.Body>
+                  </Card>
+                </Col>
+              );
+            })}
+          </Slider>
+        </Row>
+      </Container>
+    </div>
   );
 };
-
-export default TeammemberComp;

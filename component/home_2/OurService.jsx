@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
-import Style from "../styles/Ourservice.module.css";
-import Ourservicejson from "../Json/ourservice.json";
+import Style from "../../styles/Ourservice.module.css";
+import Ourservicejson from "../../Json/ourservice.json";
 
-const Ourservice = () => {
+export const Ourservice = () => {
   const [data] = useState(Ourservicejson);
   return (
     <>
@@ -14,7 +14,14 @@ const Ourservice = () => {
             <h2 className={Style.Ourservice_maindiv_h2}>What We Do</h2>
             {data.map((i) => {
               return (
-                <Col xl={4} lg={4} md={6} sm={12} xs={12} className={Style.Ourservice_col}>
+                <Col
+                  xl={4}
+                  lg={4}
+                  md={6}
+                  sm={12}
+                  xs={12}
+                  className={Style.Ourservice_col}
+                >
                   <div className={Style.Ourservice_firstdiv}>
                     <Image
                       src={i.img}
@@ -36,5 +43,3 @@ const Ourservice = () => {
     </>
   );
 };
-
-export default Ourservice;

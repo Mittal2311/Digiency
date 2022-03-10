@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
-import Style from "../styles/Ourtestimonial.module.css";
-import Ourtestimonialjson from "../Json/Ourtestimonial.json";
+import Style from "../../styles/Ourtestimonial.module.css";
+import Ourtestimonialjson from "../../Json/Ourtestimonial.json";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const Ourtestimonial = () => {
+export const Ourtestimonial = () => {
   const [data] = useState(Ourtestimonialjson);
   var settings = {
     dots: true,
@@ -15,8 +15,12 @@ const Ourtestimonial = () => {
     slidesToShow: 3,
     slidesToScroll: 2,
     initialSlide: 0,
-    nextArrow:<div style={{ backgroundColo: "red", height: "20px", width: "20px" }} />,
-    prevArrow:<div style={{ backgroundColo: "red", height: "20px", width: "20px" }} />,
+    nextArrow: (
+      <div style={{ backgroundColo: "red", height: "20px", width: "20px" }} />
+    ),
+    prevArrow: (
+      <div style={{ backgroundColo: "red", height: "20px", width: "20px" }} />
+    ),
     responsive: [
       {
         breakpoint: 1200,
@@ -111,4 +115,3 @@ const Ourtestimonial = () => {
   );
 };
 
-export default Ourtestimonial;

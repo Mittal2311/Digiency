@@ -7,9 +7,9 @@ import {
   NavLink,
   Image,
 } from "react-bootstrap";
-import style from "../styles/Nav.module.css";
+import style from "../../styles/Nav.module.css";
 
-const Header = () => {
+export const Header = () => {
   return (
     <>
       <Navbar expand="lg" className={style.nav}>
@@ -36,7 +36,6 @@ const Header = () => {
               <NavLink href="#action2" className={style.navlink}>
                 Contact Us
               </NavLink>
-
               <Button className={style.button}>Let’s Talk</Button>
             </Nav>
           </Navbar.Collapse>
@@ -45,4 +44,3 @@ const Header = () => {
     </>
   );
 };
-export default Header;

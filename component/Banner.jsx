@@ -1,9 +1,9 @@
 import React from "react";
 import { Col, Container, Row, Image, NavLink } from "react-bootstrap";
 
-const Header = () => {
+export const Banner = () => {
   return (
-    <>
+    
       <div className="head_maindiv">
         <Container>
           <Row>
@@ -17,7 +17,7 @@ const Header = () => {
             >
               <h2 className="head_h2">
                 We Are The Best
-                 <span className="head_span"> Digital Agency</span> For Business
+                <span className="head_span"> Digital Agency</span> For Business
               </h2>
               <p className="head_p">
                 Amet minim molits deserunt ullamco etc sit aliqua dolor do amet
@@ -34,7 +34,7 @@ const Header = () => {
               xs={{ span: 12, order: 1 }}
               className="head_imgdiv"
             >
-              <Image src="/images/hedimg.png"  className="head_img"/>
+              <Image src="/images/hedimg.png" className="head_img" />
             </Col>
           </Row>
         </Container>
@@ -53,8 +53,6 @@ const Header = () => {
           </NavLink>
         </div>
       </div>
-    </>
+    
   );
 };
-
-export default Header;

@@ -1,15 +1,17 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Footer from "../component/Footer";
-import NavComp from "../component/NavComp";
-import Banner from "../component/Banner";
-import AboutUs from "../component/AboutUs";
-import OurExperiance from "../component/OurExperiance";
-import Teammember from "../component/Teammember";
-import OurWork from "../component/OurWork";
-import ClientsFeedback from "../component/ClientsFeedback";
-import OurBlogcomp from "../component/OurBlogcomp";
-import ContactUs from "../component/ContactUS";
+import {
+  Footer,
+  NavComp,
+  Banner,
+  AboutUs,
+  OurExperiance,
+  Teammember,
+  OurWork,
+  ClientsFeedback,
+  OurBlogcomp,
+  ContactUs,
+} from "../component";
 
 export default function Home() {
   return (
@@ -20,37 +22,25 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div>
-        <NavComp />
-      </div>
+      <NavComp />
 
-      <div>
-        <Banner />
-      </div>
-      <div>
-        <AboutUs />
-      </div>
-      <div>
-        <OurExperiance />
-      </div>
-      <div>
-        <Teammember />
-      </div>
-      <div>
-        <OurWork />
-      </div>
-      <div>
-        <ClientsFeedback />
-      </div>
-      <div>
-        <OurBlogcomp />
-      </div>
-      <div>
-        <ContactUs />
-      </div>
-      <div>
-        <Footer />
-      </div>
+      <Banner />
+
+      <AboutUs />
+
+      <OurExperiance />
+
+      <Teammember />
+
+      <OurWork />
+
+      <ClientsFeedback />
+
+      <OurBlogcomp />
+
+      <ContactUs />
+
+      <Footer />
     </div>
   );
 }

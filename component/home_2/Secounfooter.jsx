@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
-import Style from "../styles/SecoundFooter.module.css";
+import Style from "../../styles/SecoundFooter.module.css";
 
-const Secoundfooter = () => {
+export const Secoundfooter = () => {
   return (
     <>
       <div className={Style.Footer_section_maindiv}>
@@ -104,8 +104,17 @@ const Secoundfooter = () => {
                   </li>
                 </ul>
               </Col>
-              <Col xl={3} lg={3} md={3} sm={3} className={Style.Footer_secound_container_imgdiv}>
-                <Image src="./Desktop-images/Up.svg" className={Style.Footer_secound_container_img} />
+              <Col
+                xl={3}
+                lg={3}
+                md={3}
+                sm={3}
+                className={Style.Footer_secound_container_imgdiv}
+              >
+                <Image
+                  src="./Desktop-images/Up.svg"
+                  className={Style.Footer_secound_container_img}
+                />
               </Col>
             </div>
           </Row>
@@ -114,5 +123,3 @@ const Secoundfooter = () => {
     </>
   );
 };
-
-export default Secoundfooter;

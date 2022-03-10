@@ -1,8 +1,8 @@
 import React from "react";
 import { Col, Container, Row, Image } from "react-bootstrap";
-import Style from "../styles/SecoundAboutus.module.css";
+import Style from "../../styles/SecoundAboutus.module.css";
 
-const SecoundAboutus = () => {
+export const SecoundAboutus = () => {
   return (
     <>
       <div className={Style.SecoundAboutus}>
@@ -51,5 +51,3 @@ const SecoundAboutus = () => {
     </>
   );
 };
-
-export default SecoundAboutus;

@@ -5,7 +5,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 
-const OurBlogcomp = () => {
+export const OurBlogcomp = () => {
   const [data] = useState(blogdata);
   const [index, setIndex] = useState(0);
   const handleSelect = (selectedIndex, e) => {
@@ -31,7 +31,7 @@ const OurBlogcomp = () => {
       {
         breakpoint: 992,
         settings: {
-          slidesToShow: 1.10,
+          slidesToShow: 1.1,
           slidesToScroll: 2,
           initialSlide: 2,
         },
@@ -164,5 +164,3 @@ const OurBlogcomp = () => {
     </>
   );
 };
-
-export default OurBlogcomp;
